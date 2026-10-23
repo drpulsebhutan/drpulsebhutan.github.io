@@ -1,0 +1,1487 @@
+<!doctype html>
+<!--
+  DR. PULSE BHUTAN  ·  Dr. Manisha Kafley
+  To change anything on the page: press Ctrl+F (Cmd+F on Mac) and search for
+  EDIT YOUR CONTENT HERE. Everything you need is in that one section.
+  Photos: upload them next to this file in the repository, then put the file name in photo: "..."
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Dr. Pulse Bhutan · Dr. Manisha Kafley, Bhutanese doctor and early-career researcher</title>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "url": "https://drpulsebhutan.github.io/", "image": "https://drpulsebhutan.github.io/portrait.jpg", "name": "Manisha Kafley", "honorificPrefix": "Dr.", "alternateName": "Dr. Pulse Bhutan", "jobTitle": "Medical intern and early-career researcher", "nationality": "Bhutan", "worksFor": {"@type": "Hospital", "name": "Jigme Dorji Wangchuck National Referral Hospital"}, "alumniOf": [{"@type": "CollegeOrUniversity", "name": "Mymensingh Medical College"}, {"@type": "HighSchool", "name": "Ugyen Academy"}], "knowsAbout": ["Medical research", "Breast cancer prevention", "Early detection of cancer", "Maternal and child health", "Internal medicine", "Physiology", "Science communication", "Medical education in Bhutan"], "description": "Dr. Manisha Kafley (MBBS, Honours) is a Bhutanese doctor and early-career researcher. Breast cancer prevention and maternal and child health research, science communication, handwritten physiology and medicine notes, and mentoring for young scientists and future doctors in Bhutan."}</script>
+<meta name="description" content="Dr. Manisha Kafley (MBBS, Honours) is a Bhutanese doctor and early-career researcher. Breast cancer prevention and maternal and child health research, science communication, handwritten physiology and medicine notes, and mentoring for young scientists and future doctors in Bhutan.">
+<meta property="og:title" content="Dr. Pulse Bhutan · Dr. Manisha Kafley">
+<meta property="og:description" content="Research, care and advocacy for Bhutan and beyond. Dr. Manisha Kafley's research, handwritten notes, mentoring, and a guide to becoming a doctor in Bhutan.">
+<meta property="og:type" content="website">
+<link rel="canonical" href="https://drpulsebhutan.github.io/">
+<meta property="og:url" content="https://drpulsebhutan.github.io/">
+<meta property="og:image" content="https://drpulsebhutan.github.io/share.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Dr. Manisha Kafley interviewing mothers in rural Bangladesh, in a portrait, and at JDWNRH Thimphu, with the Dr. Pulse Bhutan name">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#8E1F36">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gloock&family=Figtree:ital,wght@0,400;0,500;0,700;1,400&family=JetBrains+Mono:wght@400;500&family=Kalam:wght@400;700&family=Caveat:wght@600;700&display=swap">
+<style>
+/* Layout: an ECG strip. Chart paper behind the hero, one pulse trace whose spikes rise as Himalayan peaks,
+   then a calm clinical page. Maroon of the kira and monastic robes as the accent, saffron from the flag in small doses.
+   The notebook pages are physical objects: cream dot-grid paper, blue and red pen, highlighter, in both themes. */
+:root {
+  --paper: #FCF8F7;
+  --surface: #FFFFFF;
+  --band: #F6EEEC;
+  --line: #EADCD9;
+  --line-strong: #D9C4C0;
+  --grid-minor: rgba(190, 60, 70, 0.07);
+  --grid-major: rgba(190, 60, 70, 0.15);
+  --ink: #1E1A21;
+  --ink-2: #4C4551;
+  --ink-3: #776F7D;
+  --accent: #8E1F36;
+  --accent-soft: rgba(142, 31, 54, 0.09);
+  --on-accent: #FFFFFF;
+  --saffron-fill: #F2A93B;
+  --good: #1D7348;
+  --good-soft: rgba(29, 115, 72, 0.1);
+  --bad: #B3261E;
+  --bad-soft: rgba(179, 38, 30, 0.08);
+  --scrim: rgba(18, 12, 18, 0.92);
+
+  /* notebook objects (same in both themes) */
+  --sheet: #FFFDF4;
+  --sheet-dot: rgba(60, 80, 140, 0.2);
+  --pen: #1E3270;
+  --pen-red: #C2362B;
+  --pencil: #5A6072;
+  --hl: rgba(255, 210, 60, 0.55);
+  --sticky: #FFF0A0;
+  --tape: rgba(222, 205, 160, 0.55);
+
+  --f-display: "Gloock", Georgia, "Times New Roman", serif;
+  --f-body: "Figtree", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --f-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --f-hand: "Kalam", "Segoe Print", "Bradley Hand", "Comic Sans MS", cursive;
+  --f-script: "Caveat", "Segoe Print", "Bradley Hand", cursive;
+
+  --wrap: 72rem;
+  --gutter: clamp(16px, 4vw, 40px);
+  --radius: 10px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #121016; --surface: #1B1820; --band: #17141C; --line: #2E2934; --line-strong: #3E3746;
+    --grid-minor: rgba(255, 128, 150, 0.045); --grid-major: rgba(255, 128, 150, 0.095);
+    --ink: #F1ECEF; --ink-2: #C0B7C1; --ink-3: #8D8494;
+    --accent: #FF8FA3; --accent-soft: rgba(255, 143, 163, 0.11); --on-accent: #2A0C13;
+    --saffron-fill: #F2B04A;
+    --good: #63D69B; --good-soft: rgba(99, 214, 155, 0.12); --bad: #FF8A80; --bad-soft: rgba(255, 138, 128, 0.1);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #121016; --surface: #1B1820; --band: #17141C; --line: #2E2934; --line-strong: #3E3746;
+  --grid-minor: rgba(255, 128, 150, 0.045); --grid-major: rgba(255, 128, 150, 0.095);
+  --ink: #F1ECEF; --ink-2: #C0B7C1; --ink-3: #8D8494;
+  --accent: #FF8FA3; --accent-soft: rgba(255, 143, 163, 0.11); --on-accent: #2A0C13;
+  --saffron-fill: #F2B04A;
+  --good: #63D69B; --good-soft: rgba(99, 214, 155, 0.12); --bad: #FF8A80; --bad-soft: rgba(255, 138, 128, 0.1);
+  color-scheme: dark;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 6rem; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+body {
+  margin: 0; background: var(--paper); color: var(--ink);
+  font-family: var(--f-body); font-size: 1.0625rem; line-height: 1.62;
+  -webkit-font-smoothing: antialiased;
+}
+img { max-width: 100%; display: block; }
+[hidden] { display: none !important; }
+a { color: var(--accent); text-underline-offset: 3px; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
+.wrap { max-width: var(--wrap); margin-inline: auto; padding-inline: var(--gutter); }
+mark.todo { background: rgba(242, 169, 59, 0.25); color: inherit; border-radius: 3px; padding: 0 .2em; }
+.ecg {
+  background-color: var(--paper);
+  background-image:
+    linear-gradient(var(--grid-major) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid-major) 1px, transparent 1px),
+    linear-gradient(var(--grid-minor) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid-minor) 1px, transparent 1px);
+  background-size: 40px 40px, 40px 40px, 8px 8px, 8px 8px;
+}
+.mono-label { font-family: var(--f-mono); font-size: .72rem; letter-spacing: .12em; text-transform: uppercase; }
+
+/* ---------- Header ---------- */
+.site-head {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20;
+  background: var(--paper);
+  background: color-mix(in srgb, var(--paper) 86%, transparent);
+  -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--line);
+}
+.site-head .wrap { display: flex; align-items: center; justify-content: space-between; gap: .5rem 1.5rem; min-height: 3.75rem; }
+.brand { display: flex; align-items: center; gap: .55rem; color: var(--ink); text-decoration: none; font-family: var(--f-display); font-size: 1.25rem; white-space: nowrap; }
+.brand svg { color: var(--accent); flex: none; }
+.nav { display: flex; gap: .1rem; overflow-x: auto; scrollbar-width: none; min-width: 0; }
+.nav::-webkit-scrollbar { display: none; }
+.nav a { color: var(--ink-2); text-decoration: none; padding: .4rem .65rem; border-radius: 999px; font-size: .94rem; white-space: nowrap; }
+.nav a:hover { color: var(--accent); background: var(--accent-soft); }
+@media (max-width: 900px) {
+  .site-head .wrap { flex-wrap: wrap; padding-block: .55rem .4rem; }
+  .nav { width: 100%; }
+  .nav a { padding-inline: .55rem; font-size: .9rem; }
+}
+
+/* ---------- Hero ---------- */
+.hero { border-bottom: 1px solid var(--line); }
+.hero-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 19rem); gap: 2rem clamp(2rem, 5vw, 4rem); align-items: end; padding-block: clamp(3rem, 7vw, 5rem) 1.5rem; }
+.hero-text { min-width: 0; }
+.hero-photo { margin: 0; position: relative; aspect-ratio: 4 / 5; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--line-strong); background: var(--surface); }
+.hero-photo img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 62%; }
+.hero-photo figcaption {
+  position: absolute; left: .6rem; right: .6rem; bottom: .6rem; padding: .4rem .6rem; border-radius: 6px;
+  background: var(--surface); color: var(--ink); border-left: 3px solid var(--accent);
+  font-family: var(--f-mono); font-size: .66rem; letter-spacing: .1em; text-transform: uppercase; line-height: 1.4;
+}
+@media (max-width: 860px) { .hero-grid { grid-template-columns: minmax(0, 1fr); } .hero-photo { display: none; } }
+.roles { display: flex; flex-wrap: wrap; gap: .3rem .9rem; margin: 1rem 0 0; color: var(--ink-2); }
+.roles span:not(:last-child)::after { content: "\00b7"; margin-left: .9rem; color: var(--accent); }
+.eyebrow { color: var(--accent); margin: 0 0 1rem; }
+.hero h1 {
+  font-family: var(--f-display); font-weight: 400; margin: 0;
+  font-size: clamp(3.4rem, 11vw, 7.5rem); line-height: .94; letter-spacing: -.02em; text-wrap: balance;
+}
+.hero h1 span { color: var(--accent); display: block; }
+.tagline { font-family: var(--f-display); font-size: clamp(1.35rem, 2.8vw, 2rem); line-height: 1.25; margin: 1.25rem 0 0; max-width: 34rem; text-wrap: balance; }
+.lede { max-width: 40rem; color: var(--ink-2); font-size: clamp(1.05rem, 1.6vw, 1.18rem); margin: 1rem 0 0; }
+.cta-row { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 1.75rem; }
+.btn {
+  display: inline-flex; align-items: center; gap: .5rem; padding: .8rem 1.3rem; border-radius: 999px;
+  font: inherit; font-weight: 700; font-size: 1rem; text-decoration: none; cursor: pointer;
+  border: 1px solid var(--line-strong); background: var(--surface); color: var(--ink);
+}
+.btn:hover { border-color: var(--accent); color: var(--accent); }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
+.btn.primary:hover { filter: brightness(1.08); color: var(--on-accent); }
+.btn.small { padding: .45rem .95rem; font-size: .9rem; }
+
+.trace { position: relative; height: clamp(130px, 17vw, 200px); }
+.trace svg { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+.trace .line { fill: none; stroke: var(--accent); stroke-width: 2.25; stroke-linejoin: round; stroke-linecap: round; }
+.trace .blip { fill: var(--accent); }
+.trace .halo { fill: var(--accent-soft); }
+.trace .cal { position: absolute; left: max(var(--gutter), calc((100% - var(--wrap)) / 2 + var(--gutter))); top: .25rem; color: var(--ink-3); }
+
+.vitals { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); margin: 0; padding-block: 1.25rem 1.6rem; gap: 1rem 2rem; }
+.vitals div { min-width: 0; border-left: 2px solid var(--accent); padding-left: .85rem; }
+.vitals dt { color: var(--ink-3); }
+.vitals dd { margin: .2rem 0 0; font-weight: 700; line-height: 1.3; }
+@media (max-width: 760px) { .vitals { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+/* ---------- Sections ---------- */
+.block { padding-block: clamp(3.5rem, 8vw, 6rem); }
+.band { background: var(--band); border-block: 1px solid var(--line); }
+.sec-head { max-width: 46rem; margin-bottom: 2.25rem; }
+.sec-head .mono-label { color: var(--accent); margin: 0 0 .6rem; }
+h2 { font-family: var(--f-display); font-weight: 400; font-size: clamp(1.9rem, 4.2vw, 3rem); line-height: 1.08; letter-spacing: -.01em; margin: 0; text-wrap: balance; }
+.sec-head p:not(.mono-label) { color: var(--ink-2); margin: .8rem 0 0; }
+h3 { font-size: 1.15rem; line-height: 1.3; margin: 0; }
+
+/* About */
+.about { display: grid; grid-template-columns: minmax(0, 18rem) minmax(0, 1fr); gap: clamp(1.75rem, 5vw, 4.5rem); align-items: start; }
+.portrait-fig { margin: 0; }
+.portrait { position: relative; aspect-ratio: 4 / 5; max-width: 100%; border-radius: var(--radius); border: 1px solid var(--line); overflow: hidden; display: grid; place-items: center; }
+.portrait .mono { font-family: var(--f-display); font-size: 5.5rem; color: var(--accent); line-height: 1; }
+.portrait img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 62% 55%; }
+.portrait-fig figcaption { margin-top: .6rem; font-size: .85rem; color: var(--ink-3); }
+.about-body .bio p { margin: 0 0 1rem; max-width: 42rem; }
+.facts { list-style: none; margin: 1.75rem 0 0; padding: 0; max-width: 42rem; }
+.facts li { display: grid; grid-template-columns: 8rem minmax(0, 1fr); gap: 1rem; padding-block: .8rem; border-top: 1px solid var(--line); }
+.facts .mono-label { color: var(--ink-3); padding-top: .2rem; }
+@media (max-width: 760px) {
+  .about { grid-template-columns: minmax(0, 1fr); }
+  .portrait-fig { max-width: 15rem; }
+  .facts li { grid-template-columns: minmax(0, 1fr); gap: .1rem; }
+}
+@media (min-width: 761px) { .portrait-fig { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 5.5rem); } }
+
+/* Journey */
+.journey-wrap { display: grid; grid-template-columns: minmax(0, 20rem) minmax(0, 1fr); gap: 2rem clamp(2rem, 6vw, 5rem); align-items: start; }
+.journey-wrap .sec-head { margin: 0; }
+@media (min-width: 861px) { .journey-wrap .sec-head { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 6rem); } }
+@media (max-width: 860px) { .journey-wrap { grid-template-columns: minmax(0, 1fr); } }
+.journey { list-style: none; margin: 0; padding: 0; position: relative; }
+.journey::before { content: ""; position: absolute; left: 11px; top: .6rem; bottom: .6rem; width: 2px; background: var(--line-strong); }
+.stop { position: relative; display: grid; grid-template-columns: 24px minmax(0, 1fr); gap: 1.1rem; padding-bottom: 2rem; }
+.stop:last-child { padding-bottom: 0; }
+.stop .dot { width: 24px; height: 24px; border-radius: 50%; background: var(--paper); border: 2px solid var(--accent); display: grid; place-items: center; margin-top: .1rem; position: relative; z-index: 1; }
+.stop .dot::after { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); }
+.stop.next .dot { border-style: dashed; }
+.stop.next .dot::after { background: transparent; }
+.stop.now .dot { background: var(--accent); }
+.stop.now .dot::after { background: var(--on-accent); }
+@media (prefers-reduced-motion: no-preference) {
+  .stop.now .dot { animation: beat 1.6s ease-out infinite; }
+  @keyframes beat { 0% { box-shadow: 0 0 0 0 var(--accent-soft); } 25% { box-shadow: 0 0 0 9px var(--accent-soft); } 100% { box-shadow: 0 0 0 14px transparent; } }
+}
+.stop .where { color: var(--accent); display: flex; flex-wrap: wrap; gap: .25rem .75rem; }
+.stop .where .yr { color: var(--ink-3); }
+.stop .badge { font-family: var(--f-mono); font-size: .66rem; letter-spacing: .1em; text-transform: uppercase; padding: .05rem .45rem; border-radius: 4px; background: var(--accent); color: var(--on-accent); }
+.stop h3 { margin-top: .3rem; }
+.stop p { margin: .35rem 0 0; color: var(--ink-2); max-width: 38rem; }
+
+.journey-col { min-width: 0; }
+.thanks { margin: 2.25rem 0 0; padding: 1.25rem 1.4rem; background: var(--surface); border: 1px solid var(--line); border-left: 3px solid var(--saffron-fill); border-radius: 0 var(--radius) var(--radius) 0; }
+.thanks .mono-label { color: var(--ink-3); margin: 0; }
+.thanks blockquote { margin: .6rem 0 0; font-size: 1.05rem; line-height: 1.6; max-width: 40rem; }
+.thanks figcaption { margin-top: .4rem; font-family: var(--f-script); font-size: 1.7rem; font-weight: 600; color: var(--accent); }
+
+/* Pillars & record */
+.pillars { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-top: 1px solid var(--line-strong); }
+.pillar { padding: 1.5rem 1.5rem 0; min-width: 0; }
+.pillar + .pillar { border-left: 1px solid var(--line); }
+.pillar:first-child { padding-left: 0; }
+.pillar .mono-label { color: var(--accent); }
+.pillar h3 { font-family: var(--f-display); font-weight: 400; font-size: 1.5rem; margin: .4rem 0 1rem; }
+.pillar ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 1.1rem; }
+.pillar h4 { margin: 0; font-size: 1rem; }
+.pillar p { margin: .25rem 0 0; color: var(--ink-2); font-size: .98rem; }
+@media (max-width: 860px) {
+  .pillars { grid-template-columns: minmax(0, 1fr); }
+  .pillar { padding: 1.5rem 0 1.75rem; }
+  .pillar + .pillar { border-left: 0; border-top: 1px solid var(--line); }
+}
+.record { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 2.5rem clamp(2rem, 6vw, 5rem); margin-top: clamp(3rem, 7vw, 4.5rem); }
+@media (max-width: 860px) { .record { grid-template-columns: minmax(0, 1fr); } }
+.list-head { font-family: var(--f-mono); font-size: .76rem; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-3); font-weight: 500; padding-bottom: .6rem; border-bottom: 1px solid var(--line-strong); margin: 0; }
+.talks, .honours { list-style: none; margin: 0; padding: 0; }
+.talks li { display: grid; grid-template-columns: 7.5rem minmax(0, 1fr); gap: .3rem 1rem; padding-block: .95rem; border-bottom: 1px solid var(--line); }
+.talks .role { align-self: start; justify-self: start; font-family: var(--f-mono); font-size: .68rem; letter-spacing: .08em; text-transform: uppercase; padding: .15rem .5rem; border-radius: 4px; border: 1px solid var(--accent); color: var(--accent); margin-top: .15rem; }
+.talks strong { display: block; line-height: 1.35; }
+.talks span.ev { display: block; color: var(--ink-2); font-size: .95rem; }
+.talks .yr { font-family: var(--f-mono); font-size: .8rem; color: var(--ink-3); }
+@media (max-width: 480px) { .talks li { grid-template-columns: minmax(0, 1fr); } }
+.honours li { position: relative; padding: .8rem 0 .8rem 1.4rem; border-bottom: 1px solid var(--line); }
+.honours li::before { content: ""; position: absolute; left: .1rem; top: 1.3rem; width: .5rem; height: .5rem; background: var(--saffron-fill); transform: rotate(45deg); }
+
+/* Community gallery */
+.gallery { columns: 3 16rem; column-gap: 1rem; }
+.tile {
+  display: block; width: 100%; margin: 0 0 1rem; padding: 0; break-inside: avoid; overflow: hidden;
+  border-radius: var(--radius); border: 1px solid var(--line); background: var(--surface);
+  cursor: zoom-in; font: inherit; color: inherit; text-align: left;
+}
+.tile img { width: 100%; height: auto; }
+.tile .cap { display: grid; gap: .15rem; padding: .7rem .9rem .85rem; border-top: 1px solid var(--line); }
+.tile .where { color: var(--accent); }
+.tile .tx { font-size: .94rem; line-height: 1.4; font-weight: 700; }
+.tile:hover .tx { color: var(--accent); }
+.community-cta { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 1rem; }
+
+.lightbox {
+  position: fixed; inset: 0; z-index: 50; background: var(--scrim);
+  padding: calc(env(safe-area-inset-top, 0px) + 12px) 16px calc(env(safe-area-inset-bottom, 0px) + 12px);
+  display: flex; align-items: center; justify-content: center; color: #F4EFF2;
+}
+.lb-inner { width: 100%; max-width: 64rem; height: 100%; display: flex; flex-direction: column; gap: .75rem; }
+.lb-bar, .lb-nav { display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex: none; }
+.lb-count { font-family: var(--f-mono); font-size: .8rem; opacity: .7; }
+.lb-btn { font: inherit; font-size: .95rem; padding: .5rem 1rem; border-radius: 999px; border: 1px solid rgba(255, 255, 255, .3); background: rgba(255, 255, 255, .08); color: #F4EFF2; cursor: pointer; }
+.lb-btn:hover { border-color: #fff; }
+.lb-fig { flex: 1; min-height: 0; margin: 0; display: flex; flex-direction: column; align-items: center; gap: .75rem; }
+.lb-fig img { flex: 1; min-height: 0; max-width: 100%; object-fit: contain; border-radius: 6px; }
+.lb-fig figcaption { text-align: center; max-width: 40rem; }
+
+/* Research */
+.studies { display: grid; gap: clamp(2.5rem, 6vw, 4rem); }
+.study { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 1.5rem clamp(1.5rem, 4vw, 3.5rem); padding-top: 1.4rem; border-top: 2px solid var(--accent); }
+@media (max-width: 860px) { .study { grid-template-columns: minmax(0, 1fr); } }
+.study-top { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .3rem 1rem; }
+.study-top .kicker { color: var(--accent); }
+.study-top .when { color: var(--ink-3); }
+.study h3 { font-family: var(--f-display); font-weight: 400; font-size: clamp(1.45rem, 2.6vw, 2rem); line-height: 1.15; margin: .6rem 0 0; text-wrap: balance; }
+.study .summary { color: var(--ink-2); margin: .8rem 0 0; max-width: 40rem; }
+.meta { margin: 1.2rem 0 0; display: grid; }
+.meta div { display: grid; grid-template-columns: 7.5rem minmax(0, 1fr); gap: 1rem; padding-block: .6rem; border-top: 1px solid var(--line); }
+.meta dt { color: var(--ink-3); padding-top: .15rem; }
+.meta dd { margin: 0; font-size: .97rem; }
+@media (max-width: 480px) { .meta div { grid-template-columns: minmax(0, 1fr); gap: .1rem; } }
+.study-photos { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .75rem; align-content: start; }
+.shot { display: block; padding: 0; border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; cursor: zoom-in; background: var(--surface); aspect-ratio: 4 / 3; }
+.shot img { width: 100%; height: 100%; object-fit: cover; }
+.shot:first-child:last-child { grid-column: 1 / -1; aspect-ratio: 16 / 10; }
+.interests-wrap { margin-top: clamp(2.5rem, 6vw, 3.5rem); }
+.interests { list-style: none; margin: .9rem 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: .5rem; }
+.interests li { padding: .4rem .85rem; border-radius: 999px; border: 1px solid var(--line-strong); background: var(--surface); font-size: .93rem; }
+.cert-btn { font: inherit; font-size: .88rem; background: none; border: 0; padding: 0; margin-left: .35rem; color: var(--accent); text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
+
+.question { margin: .9rem 0 0; padding: .7rem .9rem; border-left: 3px solid var(--accent); background: var(--accent-soft); border-radius: 0 8px 8px 0; font-weight: 500; max-width: 40rem; }
+.question .mono-label, .finding .mono-label { display: block; color: var(--accent); margin-bottom: .2rem; font-weight: 400; }
+.finding { margin: .9rem 0 0; font-weight: 700; max-width: 40rem; }
+.vitals-head { color: var(--accent); margin: 1.25rem 0 0; }
+.vitals { padding-top: .75rem; }
+.why-name { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: .9rem; align-items: start; margin: .5rem 0 0; padding: 1rem 1.2rem; max-width: 42rem; border-left: 3px solid var(--accent); background: var(--accent-soft); border-radius: 0 10px 10px 0; color: var(--accent); }
+.why-name p { margin: 0; color: var(--ink); font-size: .98rem; }
+
+/* Why Bhutan */
+.fact-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1.5rem 2rem; padding-top: 1.5rem; border-top: 1px solid var(--line-strong); }
+@media (max-width: 960px) { .fact-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 480px) { .fact-grid { grid-template-columns: minmax(0, 1fr); } }
+.fact { min-width: 0; }
+.fact .num { display: block; font-family: var(--f-display); font-size: clamp(2.4rem, 4.6vw, 3.4rem); line-height: 1; color: var(--accent); font-variant-numeric: tabular-nums; }
+.fact p { margin: .7rem 0 0; color: var(--ink-2); font-size: .97rem; }
+sup.ref { font-family: var(--f-mono); font-size: .68em; line-height: 0; margin-left: .15em; }
+sup.ref a { text-decoration: none; color: var(--accent); }
+sup.ref a:hover { text-decoration: underline; }
+.vision { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 2rem clamp(2rem, 5vw, 4rem); margin-top: clamp(2.5rem, 6vw, 3.5rem); align-items: start; }
+@media (max-width: 860px) { .vision { grid-template-columns: minmax(0, 1fr); } }
+.vision-text .mono-label { color: var(--accent); margin: 0; }
+.vision-text h3 { font-family: var(--f-display); font-weight: 400; font-size: clamp(1.6rem, 3vw, 2.2rem); line-height: 1.1; margin: .5rem 0 0; }
+.vision-text p:not(.mono-label) { color: var(--ink-2); margin: .8rem 0 0; max-width: 38rem; }
+.vision-text .vision-personal { color: var(--ink); font-weight: 500; }
+.questions { list-style: none; margin: 0; padding: 0; }
+.questions li { position: relative; padding: .85rem 0 .85rem 2rem; border-bottom: 1px solid var(--line); }
+.questions li:last-child { border-bottom: 0; padding-bottom: 0; }
+.questions li::before { content: "?"; position: absolute; left: 0; top: .55rem; font-family: var(--f-display); font-size: 1.6rem; line-height: 1; color: var(--accent); }
+.refs { margin-top: clamp(2.5rem, 6vw, 3.5rem); }
+.refs ol { margin: .75rem 0 0; padding-left: 1.6rem; color: var(--ink-3); font-size: .86rem; display: grid; gap: .35rem; }
+.refs li { padding-left: .3rem; scroll-margin-top: 6rem; }
+.refs li::marker { font-family: var(--f-mono); color: var(--accent); }
+.refs a { color: var(--ink-2); overflow-wrap: anywhere; }
+.refs li:target { background: var(--accent-soft); border-radius: 4px; }
+
+.consent-note { margin: 1rem 0 0; font-size: .86rem; color: var(--ink-3); display: flex; gap: .5rem; align-items: baseline; }
+.consent-note::before { content: "\2713"; color: var(--good); font-weight: 700; }
+
+/* Gallery filters */
+.chips { display: flex; flex-wrap: wrap; gap: .5rem; margin-bottom: 1.25rem; }
+.chip { font: inherit; font-size: .9rem; padding: .4rem .95rem; border-radius: 999px; border: 1px solid var(--line-strong); background: var(--surface); color: var(--ink-2); cursor: pointer; }
+.chip:hover { border-color: var(--accent); color: var(--accent); }
+.chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
+
+/* ---------- Notebook ---------- */
+.note-tabs { display: flex; flex-wrap: wrap; gap: .6rem; margin-bottom: 1.5rem; }
+.note-tab {
+  font: inherit; text-align: left; cursor: pointer; display: grid; gap: .1rem;
+  padding: .6rem 1rem; border-radius: 12px; border: 1px solid var(--line-strong); background: var(--surface); color: var(--ink);
+}
+.note-tab .mono-label { color: var(--ink-3); font-size: .64rem; }
+.note-tab strong { font-size: .98rem; }
+.note-tab:hover { border-color: var(--accent); }
+.note-tab[aria-pressed="true"] { border-color: var(--accent); background: var(--accent-soft); }
+.note-tab[aria-pressed="true"] strong { color: var(--accent); }
+@media (max-width: 700px) {
+  .note-tabs { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin-inline: calc(var(--gutter) * -1); padding-inline: var(--gutter); padding-bottom: .25rem; }
+  .note-tabs::-webkit-scrollbar { display: none; }
+  .note-tab { flex: none; max-width: 15rem; }
+}
+
+.sheet {
+  position: relative; color: var(--pen); font-family: var(--f-hand); font-size: 1.08rem; line-height: 1.55;
+  background: radial-gradient(var(--sheet-dot) 1px, transparent 1.5px) 0 0 / 22px 22px, var(--sheet);
+  border-radius: 3px; padding: clamp(1.5rem, 4.5vw, 3rem) clamp(1.1rem, 4.5vw, 3rem) clamp(1.25rem, 3.5vw, 2.25rem);
+  box-shadow: 0 1px 2px rgba(20, 10, 20, .12), 0 18px 40px -18px rgba(20, 10, 20, .45);
+}
+.sheet::before {
+  content: ""; position: absolute; top: -12px; left: 50%; width: 120px; height: 26px; margin-left: -60px;
+  background: var(--tape); transform: rotate(-2deg); border-radius: 2px;
+}
+.sheet-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: .5rem 1.5rem; }
+.sheet h3 {
+  font-family: var(--f-script); font-weight: 700; font-size: clamp(2.2rem, 5.5vw, 3.2rem); line-height: 1; margin: 0; color: var(--pen);
+  text-decoration: underline wavy var(--pen-red); text-decoration-thickness: 2px; text-underline-offset: 10px;
+}
+.subject {
+  font-family: var(--f-hand); font-size: .92rem; color: var(--pen-red); padding: .1rem .7rem;
+  border: 2px solid var(--pen-red); border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px;
+}
+.sheet-body { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); gap: 1.5rem 2.25rem; margin-top: 1.75rem; align-items: start; }
+@media (max-width: 900px) { .sheet-body { grid-template-columns: minmax(0, 1fr); } }
+.diagram svg { width: 100%; height: auto; display: block; overflow: visible; }
+.diagram .ink { fill: none; stroke: var(--pen); stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+.diagram .ink-red { fill: none; stroke: var(--pen-red); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.diagram .ink-pencil { fill: none; stroke: var(--pencil); stroke-width: 1.6; stroke-linecap: round; }
+.diagram .dash { stroke-dasharray: 6 6; }
+.diagram .fill-red { fill: var(--pen-red); stroke: none; }
+.diagram .fill-pen { fill: var(--pen); stroke: none; }
+.diagram text { font-family: var(--f-hand); font-size: 15px; fill: var(--pen); }
+.diagram text.sm { font-size: 13px; }
+.diagram text.red { fill: var(--pen-red); }
+.diagram text.pencil { fill: var(--pencil); }
+.diagram text.big { font-family: var(--f-script); font-size: 28px; font-weight: 700; }
+.diagram text.b { font-weight: 700; }
+.points { list-style: none; margin: 0; padding: 0; display: grid; gap: .45rem; }
+.points li { position: relative; padding-left: 1.4rem; }
+.points li::before { content: "\2192"; position: absolute; left: 0; color: var(--pen-red); font-weight: 700; }
+.sheet mark.hl {
+  color: inherit; padding: 0 .2em; border-radius: .35em .2em;
+  background: linear-gradient(100deg, transparent 1%, var(--hl) 3%, var(--hl) 96%, transparent 99%);
+  -webkit-box-decoration-break: clone; box-decoration-break: clone;
+}
+.sheet u.pen { text-decoration: underline var(--pen-red) 2px; text-underline-offset: 3px; font-weight: 700; }
+.sheet-boxes { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 1.25rem 2rem; margin-top: 1.75rem; }
+@media (max-width: 700px) { .sheet-boxes { grid-template-columns: minmax(0, 1fr); } }
+.sticky { background: var(--sticky); padding: 1rem 1.1rem; transform: rotate(-1.2deg); box-shadow: 0 8px 16px -10px rgba(40, 30, 0, .45); }
+.pearl { padding: .9rem 1.1rem; border: 2px solid var(--pen); border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px; }
+.box-label { display: block; font-family: var(--f-script); font-weight: 700; font-size: 1.5rem; line-height: 1.1; color: var(--pen-red); margin-bottom: .25rem; }
+.sheet-foot { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: .5rem 1.5rem; margin-top: 1.5rem; }
+.signature { font-family: var(--f-script); font-size: 1.6rem; font-weight: 600; }
+.pencil-note { color: var(--pencil); font-size: .92rem; }
+
+.quiz { margin-top: 1.75rem; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: clamp(1.1rem, 3vw, 1.6rem); }
+.quiz-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: .5rem 1rem; }
+.quiz-head h3 { font-family: var(--f-display); font-weight: 400; font-size: 1.5rem; }
+.score { font-family: var(--f-mono); font-size: .85rem; color: var(--ink-3); font-variant-numeric: tabular-nums; }
+.qs { list-style: none; margin: 1rem 0 0; padding: 0; display: grid; gap: 1.25rem; counter-reset: q; }
+.qs > li { counter-increment: q; }
+.qs .qtext { margin: 0 0 .6rem; font-weight: 700; }
+.qs .qtext::before { content: counter(q) ". "; color: var(--accent); }
+.opts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .5rem; }
+@media (max-width: 600px) { .opts { grid-template-columns: minmax(0, 1fr); } }
+.opt { font: inherit; font-size: .97rem; text-align: left; cursor: pointer; padding: .6rem .85rem; border-radius: 8px; border: 1px solid var(--line-strong); background: var(--paper); color: var(--ink); }
+.opt:hover:not(:disabled) { border-color: var(--accent); }
+.opt:disabled { cursor: default; }
+.opt.right { border-color: var(--good); background: var(--good-soft); color: var(--ink); }
+.opt.wrong { border-color: var(--bad); background: var(--bad-soft); }
+.explain { margin: .6rem 0 0; font-size: .95rem; color: var(--ink-2); }
+.explain strong.ok { color: var(--good); }
+.explain strong.no { color: var(--bad); }
+.notebook-note { margin-top: 1rem; font-size: .88rem; color: var(--ink-3); }
+
+/* Students */
+.steps { list-style: none; margin: 0; padding: 0; counter-reset: step; }
+.step { display: grid; grid-template-columns: 4.5rem minmax(0, 1fr); gap: 1rem; padding-block: 1.3rem; border-top: 1px solid var(--line); counter-increment: step; }
+.step:last-child { border-bottom: 1px solid var(--line); }
+.step::before { content: counter(step, decimal-leading-zero); font-family: var(--f-mono); font-size: 1.6rem; font-weight: 500; color: var(--accent); line-height: 1.1; font-variant-numeric: tabular-nums; }
+.step p { margin: .35rem 0 0; color: var(--ink-2); max-width: 44rem; }
+.step .src { display: inline-block; margin-top: .45rem; font-size: .88rem; }
+@media (max-width: 480px) { .step { grid-template-columns: 3rem minmax(0, 1fr); } .step::before { font-size: 1.25rem; } }
+.student-extra { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 2.5rem clamp(2rem, 6vw, 5rem); margin-top: clamp(2.5rem, 6vw, 3.5rem); }
+@media (max-width: 860px) { .student-extra { grid-template-columns: minmax(0, 1fr); } }
+.tips, .links { list-style: none; margin: 0; padding: 0; }
+.tips li { padding: 1rem 0; border-bottom: 1px solid var(--line); }
+.tips strong { display: block; }
+.tips span { color: var(--ink-2); }
+.links li + li { border-top: 1px solid var(--line); }
+.links a { display: block; padding: .85rem 0; text-decoration: none; color: var(--ink); }
+.links strong { display: block; }
+.links span { display: block; color: var(--ink-2); font-size: .94rem; }
+.links a:hover strong { color: var(--accent); }
+
+/* Connect */
+.offers { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin-bottom: 2rem; }
+@media (max-width: 860px) { .offers { grid-template-columns: minmax(0, 1fr); } }
+.offer { border-top: 2px solid var(--accent); padding-top: .9rem; min-width: 0; }
+.offer h3 { font-family: var(--f-display); font-weight: 400; font-size: 1.35rem; }
+.offer p { margin: .35rem 0 0; color: var(--ink-2); font-size: .98rem; }
+.connect { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 2rem clamp(2rem, 5vw, 4rem); align-items: start; }
+@media (max-width: 860px) { .connect { grid-template-columns: minmax(0, 1fr); } }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: clamp(1.1rem, 3vw, 1.6rem); min-width: 0; }
+.form { display: grid; gap: 1rem; }
+.form .row2 { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 1rem; }
+@media (max-width: 560px) { .form .row2 { grid-template-columns: minmax(0, 1fr); } }
+.field { display: grid; gap: .3rem; min-width: 0; }
+.field label { font-size: .9rem; font-weight: 700; }
+.field .opt-hint { font-weight: 400; color: var(--ink-3); }
+.field input, .field select, .field textarea {
+  font: inherit; font-size: 1rem; color: var(--ink); background: var(--paper);
+  border: 1px solid var(--line-strong); border-radius: 8px; padding: .6rem .75rem; width: 100%;
+}
+.field textarea { min-height: 8rem; resize: vertical; }
+.field input:focus, .field select:focus, .field textarea:focus { outline: 2px solid var(--accent); outline-offset: 1px; border-color: var(--accent); }
+.form-actions { display: flex; flex-wrap: wrap; align-items: center; gap: .75rem 1rem; }
+.form-error { color: var(--bad); font-size: .92rem; margin: 0; }
+.composed { margin-top: 1rem; display: grid; gap: .6rem; }
+.composed p { margin: 0; color: var(--ink-2); font-size: .95rem; }
+.composed pre { margin: 0; white-space: pre-wrap; overflow-wrap: anywhere; font-family: var(--f-mono); font-size: .85rem; background: var(--paper); border: 1px solid var(--line); border-radius: 8px; padding: .8rem; max-height: 16rem; overflow: auto; }
+.side-card .mono-label { color: var(--ink-3); }
+.email-row { display: flex; flex-wrap: wrap; align-items: center; gap: .6rem 1rem; margin-top: .45rem; }
+.email-row a { font-family: var(--f-mono); font-size: .95rem; color: var(--ink); text-decoration: none; overflow-wrap: anywhere; }
+.side-card p { color: var(--ink-2); font-size: .95rem; margin: 1rem 0 0; }
+.socials { list-style: none; margin: 1.25rem 0 0; padding: 1rem 0 0; border-top: 1px solid var(--line); display: flex; flex-wrap: wrap; gap: .5rem; }
+.socials:empty { display: none; }
+.socials a { display: inline-block; padding: .35rem .85rem; border: 1px solid var(--line-strong); border-radius: 999px; color: var(--ink); text-decoration: none; font-size: .92rem; }
+.socials a:hover { border-color: var(--accent); color: var(--accent); }
+
+.site-foot { border-top: 1px solid var(--line); padding-block: 1.75rem; color: var(--ink-3); font-size: .9rem; }
+.site-foot .wrap { display: grid; gap: .5rem; }
+.site-foot .row { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .5rem 2rem; }
+.site-foot p { margin: 0; }
+</style>
+</head>
+<body>
+<script>
+/* =====================================================================
+   EDIT YOUR CONTENT HERE
+   Everything on the page comes from the lists below.
+   To add something: copy one whole { ... } block, paste it where you want it,
+   add a comma between blocks, and change the text inside the quote marks.
+   Leave year as "" if you don't want a year shown.
+   In the NOTES, ==text== makes a yellow highlight and __text__ a red-pen underline.
+   ===================================================================== */
+
+const PROFILE = {
+  name: "Dr. Manisha Kafley",
+  initials: "MK",
+  photo: "portrait.jpg",
+  photoCaption: "",
+  email: "kafleymanisha162001@gmail.com",
+  bio: [
+    "Dr. Manisha Kafley is a young Bhutanese doctor and researcher. She completed her MBBS with Honours at Mymensingh Medical College in Bangladesh on a Royal Government of Bhutan scholarship, and is now a medical intern at Jigme Dorji Wangchuck National Referral Hospital in Thimphu, Bhutan's national referral and teaching hospital, where she continues her research alongside her clinical training.",
+    "Her academic record stands out at every level. She has been among the top students since primary school, won a scholarship to Ugyen Academy in Punakha, and in medical school stood first in multiple subjects and academic years before graduating with Honours.",
+    "Research has run alongside her studies from the start, and it began in the community. With Progress in Pink, a programme funded by the U.S. Department of State, she took breast cancer advocacy, early detection and prevention to rural Mymensingh, visiting schools and communities and teaching women and girls to recognise warning signs early. For the Department of Community Medicine she visited rural homes and interviewed mothers for a survey of socio-demographic characteristics, sanitation, and the health of mothers and children under five. She plans to specialise in internal medicine and to build cancer-prevention research that turns evidence into practical care for small, resource-limited health systems like Bhutan's. She looks forward to contributing to Gelephu Mindfulness City, the new city taking shape in Gelephu, where she grew up, and to showing the world the scientific potential Bhutan holds.",
+    "Science communication and mentoring run through all of it. In school she promoted science through her science club and science exhibitions. In medical school she tutored, mentored and guided junior Bhutanese and international students, and as a member and Co-Chief of IFMSA Bangladesh she helped bring public health, advocacy and skills training to fellow medical students. On Dr. Pulse Bhutan she continues that work with one-page notes and self-tests, mentoring and guidance for future doctors and scientists, and health talks for schools and communities. Her aim is to inspire and educate the next generation of scientific leaders in Bhutan and beyond."
+  ],
+  facts: [
+    { label: "Medical school", value: "MBBS with Honours, Mymensingh Medical College, Bangladesh (session 2019–20)" },
+    { label: "Now", value: "Medical intern, Jigme Dorji Wangchuck National Referral Hospital, Thimphu, with research alongside" },
+    { label: "Research", value: "Breast cancer prevention and screening; sanitation and maternal and child health" },
+    { label: "Leadership", value: "Co-Chief, IFMSA Bangladesh (member since 2021)" },
+    { label: "Science communication", value: "Mentor and volunteer tutor for junior Bhutanese and international students; science club and science exhibitions in school" },
+    { label: "Interests", value: "Internal medicine, cancer prevention, women's and children's health" }
+  ],
+  // Leave url empty ("") to hide a link.
+  socials: [
+    { label: "ORCID", url: "" },
+    { label: "Google Scholar", url: "" },
+    { label: "ResearchGate", url: "" },
+    { label: "LinkedIn", url: "" },
+    { label: "Facebook", url: "" },
+    { label: "Instagram", url: "" },
+    { label: "YouTube", url: "" }
+  ]
+};
+
+const VITALS = [
+  { label: "Degree", value: "MBBS with Honours" },
+  { label: "Academic rank", value: "First in multiple subjects and years" },
+  { label: "Field research", value: "Breast cancer · child health" },
+  { label: "Now", value: "Medical intern, JDWNRH" }
+];
+
+// In order, oldest first. Set now: true on where she is today, next: true on the goal.
+const JOURNEY = [
+  { place: "Gelephu, Sarpang", year: "", title: "Where it started",
+    text: "Among the top-scoring students from primary school onward, recognised for both academic and co-curricular achievement." },
+  { place: "Ugyen Academy, Punakha", year: "", title: "Higher secondary on scholarship",
+    text: "Classes XI and XII in Science, on a scholarship awarded for academic and co-curricular excellence. Active in the science club and science exhibitions, promoting science among fellow students." },
+  { place: "Royal Government of Bhutan", year: "", title: "Selected for an MBBS scholarship",
+    text: "Awarded a Royal Government of Bhutan undergraduate scholarship, through the Department of Adult and Higher Education (DAHE), to study medicine at Mymensingh Medical College in Bangladesh." },
+  { place: "Mymensingh Medical College, Bangladesh", year: "Session 2019–20", title: "MBBS with Honours",
+    text: "Stood first in multiple subjects and academic years. Along the way: field research on breast cancer screening and on maternal and child health, IFMSA Bangladesh membership from 2021 and the role of Co-Chief, and years of tutoring and mentoring junior Bhutanese and international students." },
+  { place: "Bangladesh", year: "March 2024", title: "An audience with Their Majesties",
+    text: "Among the Bhutanese students in Bangladesh granted an audience with Their Majesties the King and Queen and Their Royal Highnesses Gyalsey Jigme Namgyel and Gyalsey Ugyen Wangchuck." },
+  { place: "JDWNRH, Thimphu", year: "", title: "Medical intern at the national referral hospital", now: true,
+    text: "After completing her MBBS final examinations, she is training as an intern at Bhutan's national referral and teaching hospital, rotating through the major clinical departments, including the Gyaltsuen Jetsun Pema Wangchuck Mother and Child Hospital, under specialist supervision. Her research continues alongside." },
+  { place: "Next", year: "", title: "Internal medicine and cancer prevention", next: true,
+    text: "Specialising in internal medicine, and building prevention-first research and care for Bhutan, including in Gelephu Mindfulness City, where she grew up." }
+];
+
+// Field studies. photos are file names; captions show when a photo is opened.
+const RESEARCH = [
+  { kicker: "Research and field visits · Breast cancer", when: "30 October",
+    title: "Progress in Pink: breast cancer advocacy, early detection and prevention in rural Mymensingh",
+    question: "How can breast cancer awareness and early detection reach women and girls in a rural community?",
+    findings: "",   // add a key result here, e.g. how many women and girls were reached or screened
+    summary: "A field programme that took breast cancer advocacy, early detection and prevention to a rural school and the community around it. The team visited the community, carried out a survey, supported screening, and taught women and schoolgirls the warning signs and when to seek care.",
+    meta: [
+      ["Setting", "Radhakanai, Fulbaria, Mymensingh, Bangladesh"],
+      ["Who", "Women and schoolgirls in a rural community"],
+      ["Methods", "Field visits · community survey · screening · advocacy and health education"],
+      ["Her role", "Volunteer researcher and advocate; presented on breast cancer screening"],
+      ["Funding", "U.S. Department of State, supported by iEARN-Bangladesh, organised by YES Alumni Bangladesh Association"],
+      ["Recognition", "Certificate of Appreciation"]
+    ],
+    photos: [
+      { image: "progress-in-pink-team.jpg", caption: "The Progress in Pink team before a day of field work, screening and health education" },
+      { image: "progress-in-pink.jpg", caption: "Progress in Pink with schoolgirls in Fulbaria, Mymensingh" },
+      { image: "outreach-students.jpg", caption: "With schoolgirls at the Progress in Pink awareness day" },
+      { image: "cert-progress-in-pink.jpg", caption: "Certificate of Appreciation for volunteering in Progress in Pink" }
+    ] },
+  { kicker: "Community survey · Mothers and children under five", when: "2023",
+    title: "Socio-demographic Characteristics, Sanitation and Maternal and Child Health (MCH) Scenario of a Rural Area of Bangladesh",
+    question: "How do families in a rural community live, how good is their sanitation, and what care do mothers and children under five receive?",
+    findings: "",   // add a key result here, e.g. the share of homes with a sanitary latrine
+    summary: "A household survey for the Department of Community Medicine. The team visited rural homes and interviewed mothers about their families' living conditions, water and sanitation, and the health care that mothers and children under five receive.",
+    meta: [
+      ["Setting", "A rural community in Bangladesh"],
+      ["Field site", "50-bed Upazila Health Complex, Dewanganj, Jamalpur"],
+      ["Who", "Households, mothers and children under five"],
+      ["Methods", "Household survey · face-to-face interviews with mothers · field visits"],
+      ["Her role", "Interviewer and author of the survey report"],
+      ["Department", "Community Medicine, Mymensingh Medical College"]
+    ],
+    photos: [
+      { image: "mch-interview-team.jpg", caption: "Interviewing mothers about their families' health, sanitation and care for children under five" },
+      { image: "mch-interview.jpg", caption: "A household interview: mothers and grandmothers share how their families live" },
+      { image: "mch-dewanganj-uhc.jpg", caption: "The field team at the 50-bed Upazila Health Complex, Dewanganj, Jamalpur" },
+      { image: "survey-report.jpg", caption: "Her survey report, Department of Community Medicine, Mymensingh Medical College" }
+    ] }
+];
+
+// Why Bhutan. ref is the number of the source in REFERENCES.
+const BHUTAN_FACTS = [
+  { stat: "Free", text: "Free access to basic public health services, in both modern and traditional medicine, is written into the Constitution.", ref: [1] },
+  { stat: "2010", text: "Bhutan became the first lower- or middle-income country to vaccinate girls against HPV nationwide. Today it vaccinates boys too.", ref: [2] },
+  { stat: "91.2%", text: "of the eligible population took part in a nationwide screening drive for stomach, cervical and breast cancers from 2020 to 2023.", ref: [3] },
+  { stat: "2024", text: "Bhutan's own medical school, Khesar Gyalpo University of Medical Sciences, began teaching its first MBBS class.", ref: [4] }
+];
+
+const VISION = {
+  title: "From Gelephu, for Gelephu",
+  text: "Established under a Royal Charter by His Majesty The King and announced on National Day in December 2023, Gelephu Mindfulness City is Bhutan's new Special Administrative Region. Health and wellness, and education and knowledge, are among its core sectors.",
+  ref: [5, 6],
+  personal: "Gelephu is where Dr. Manisha grew up. She looks forward to contributing to the city's health care, research and science education, and to showing the world the scientific potential Bhutan holds.",
+  questions: [
+    "Why do some women still reach care late with breast cancer, and how can schools and communities help them come sooner?",
+    "How can Bhutan keep nationwide cancer screening going in every district, year after year?",
+    "How do sanitation and maternal care shape the health of children under five?",
+    "What would a prevention-first, mindful health system look like in Gelephu Mindfulness City?"
+  ]
+};
+
+const REFERENCES = [
+  { text: "The Constitution of the Kingdom of Bhutan (2008), Article 9(21).", link: "https://www.constituteproject.org/constitution/Bhutan_2008" },
+  { text: "Gavi VaccinesWork. Beyond cervical cancer: How Bhutan is winning the war against HPV.", link: "https://www.gavi.org/vaccineswork/beyond-cervical-cancer-how-bhutan-winning-war-against-hpv" },
+  { text: "Dorji T, et al. Population-level cancer screening and cancer care in Bhutan, 2020–2023: a review. Lancet Reg Health Southeast Asia. 2024;24:100370.", link: "https://www.thelancet.com/journals/lansea/article/PIIS2772-3682(24)00019-2/fulltext" },
+  { text: "The Bhutanese (14 October 2023). Khesar Gyalpo University of Medical Sciences introduces MBBS program.", link: "https://thebhutanese.bt/khesar-gyalpo-university-of-medical-sciences-introduces-mbbs-program/" },
+  { text: "Gelephu Mindfulness City. About.", link: "https://gmc.bt/about" },
+  { text: "Gelephu Mindfulness City. Royal Address on Gelephu Mindfulness City.", link: "https://gmc.bt/speech" }
+];
+
+const INTERESTS = [
+  "Cancer prevention and early detection", "Breast cancer screening", "Women's health",
+  "Maternal and child health", "Internal medicine", "Evidence-based and translational medicine",
+  "Public health in resource-limited settings"
+];
+
+// Shown at the end of the Journey section, in her own words.
+const ACKNOWLEDGEMENT = {
+  text: "I am deeply grateful to His Majesty The King and the Royal Government of Bhutan for the scholarship that allowed me to study medicine in Bangladesh. This work is my way of giving back to Bhutan.",
+  sign: "Manisha Kafley"
+};
+
+const PILLARS = [
+  { key: "Care", title: "Learning on the wards", items: [
+    { title: "Medical intern, JDWNRH", text: "Learning patient care across the major clinical departments of Bhutan's national referral hospital, under specialist supervision." },
+    { title: "Evidence-based teaching", text: "A departmental seminar on joint dislocations of the shoulder, elbow and hip, combining WHO and Bhutan Ministry of Health guidance with recent clinical-trial evidence." }
+  ]},
+  { key: "Advocacy and leadership", title: "Speaking up for prevention", items: [
+    { title: "Co-Chief, IFMSA Bangladesh", text: "A member since 2021 and a leader in the Bangladesh chapter of the International Federation of Medical Students' Associations, coordinating student work in public health, advocacy and medical education." },
+    { title: "Women and girls first", text: "Taking breast cancer awareness to schools and rural communities, so that women and girls know the warning signs and seek care early." },
+    { title: "Skills for future doctors", text: "Helped promote IFMSA Bangladesh's Skill School 3.0 at Mymensingh Medical College: two days of training at Dhaka Medical College in November 2024 on newborn care, burns, ECG interpretation, mental health and basic life support." }
+  ]},
+  { key: "Mentoring and science communication", title: "Inspiring the next generation", items: [
+    { title: "Tutor, mentor and guide", text: "Volunteered throughout medical school to tutor, mentor and guide junior Bhutanese and international students." },
+    { title: "Making science exciting", text: "From her school's science club and science exhibitions to the one-page notes and self-tests on this site, she makes science clear and motivating for students." }
+  ]}
+];
+
+const TALKS = [
+  { role: "Seminar", title: "Common Joint Dislocations: Shoulder, Elbow and Hip", event: "Department of Orthopaedics, JDWNRH, Thimphu", year: "2026", link: "" },
+  { role: "Participant", title: "1st National Youth Cancer Congress", event: "Cancer Awareness Foundation of Bangladesh, with IFMSA Bangladesh as youth partner · Bishwo Shahitto Kendro, Dhaka", year: "7 Feb 2025", link: "https://www.cancerfoundation.org.bd/1st-national-youth-cancer-congress-2025/" },
+  { role: "Presenter", title: "Breast cancer screening", event: "Progress in Pink, YES Alumni Bangladesh Association · Fulbaria, Mymensingh", year: "30 October", link: "" }
+];
+
+// Add cert: "file.jpg" to show a "View certificate" link.
+const HONOURS = [
+  { text: "MBBS passed with Honours, Mymensingh Medical College" },
+  { text: "First position in multiple subjects and academic years, Mymensingh Medical College" },
+  { text: "Royal Government of Bhutan undergraduate scholarship for MBBS, through DAHE" },
+  { text: "Scholarship for higher secondary education, Ugyen Academy, Punakha" },
+  { text: "Certificate of Appreciation for volunteering in Progress in Pink, a U.S. Department of State–funded programme organised by YES Alumni Bangladesh Association", cert: "cert-progress-in-pink.jpg" },
+  { text: "Certificate of Participation, 1st National Youth Cancer Congress 2025, Cancer Awareness Foundation of Bangladesh", cert: "cert-youth-cancer-congress.jpg" },
+  { text: "Top scorer and award recipient for academic and co-curricular excellence since primary school" }
+];
+
+// Photos sit next to index.html in your repository. cat decides which filter button shows the photo.
+const GALLERY = [
+  { image: "progress-in-pink-team.jpg", cat: "Research", where: "Fulbaria, Mymensingh", caption: "The Progress in Pink team before a day of breast cancer screening and health education" },
+  { image: "progress-in-pink.jpg", cat: "Outreach", where: "Fulbaria, Mymensingh", caption: "Progress in Pink with schoolgirls: learning the warning signs of breast cancer" },
+  { image: "survey-report.jpg", cat: "Research", where: "Mymensingh Medical College", caption: "Her survey report on sanitation and maternal and child health, 2023" },
+  { image: "hero.jpg", cat: "Training", where: "JDWNRH, Thimphu", caption: "At JDWNRH: the Gyaltsuen Jetsun Pema Wangchuck Mother and Child Hospital" },
+  { image: "outreach-students.jpg", cat: "Outreach", where: "Fulbaria, Mymensingh", caption: "With schoolgirls at the Progress in Pink awareness day" },
+  { image: "mch-interview-team.jpg", cat: "Research", where: "Rural Bangladesh", caption: "Household interviews for her maternal and child health survey" },
+  { image: "mch-children.jpg", cat: "Research", where: "Rural Bangladesh", caption: "With children in the survey community" },
+  { image: "ifmsa-skill-school.jpg", cat: "Leadership", where: "Mymensingh Medical College", caption: "With IFMSA Bangladesh members promoting Skill School 3.0, November 2024" },
+  { image: "youth-cancer-congress.jpg", cat: "Outreach", where: "Dhaka", caption: "At the 1st National Youth Cancer Congress, 7 February 2025" },
+  { image: "community-medicine.jpg", cat: "Research", where: "Mymensingh Medical College", caption: "At the Department of Community Medicine" },
+  { image: "mch-community.jpg", cat: "Research", where: "Rural Bangladesh", caption: "With the families who took part in the survey" },
+  { image: "mch-dewanganj-uhc.jpg", cat: "Research", where: "Dewanganj, Jamalpur", caption: "The field team at the 50-bed Upazila Health Complex, Dewanganj" },
+  { image: "ifmsa-mmc.jpg", cat: "Leadership", where: "Mymensingh Medical College", caption: "IFMSA Bangladesh members with Skill School 3.0 posters at Mymensingh Medical College" },
+  { image: "royal-audience-2024.jpg", cat: "Bhutan", where: "Bangladesh", caption: "Their Majesties and Their Royal Highnesses the Gyalseys with Bhutanese students in Bangladesh, March 2024. Photo: official page of His Majesty King Jigme Khesar Namgyel Wangchuck" },
+  { image: "audience-2024.jpg", cat: "Bhutan", where: "Bangladesh", caption: "The evening Bhutanese students in Bangladesh met Their Majesties, March 2024" },
+  { image: "campus.jpg", cat: "Training", where: "Mymensingh Medical College", caption: "In her white coat during medical school" },
+  { image: "cert-progress-in-pink.jpg", cat: "Recognition", where: "YES Alumni Bangladesh Association", caption: "Certificate of Appreciation for volunteering in Progress in Pink" },
+  { image: "cert-youth-cancer-congress.jpg", cat: "Recognition", where: "Cancer Awareness Foundation of Bangladesh", caption: "Certificate of Participation, 1st National Youth Cancer Congress 2025" }
+];
+
+/* NOTES: each one-page note. diagram must be one of: "ecg", "oxygen", "abg", "breast".
+   answer is the number of the correct option, counting from 0. */
+const NOTES = [
+  { id: "ecg", subject: "Physiology · Heart", title: "The ECG, beat by beat", diagram: "ecg",
+    points: [
+      "Pathway: SA node → atria → AV node (==the pause== that lets the ventricles fill) → bundle of His → bundle branches → Purkinje fibres",
+      "__P__ = the atria depolarise",
+      "__QRS__ = the ventricles depolarise (atrial repolarisation hides inside it)",
+      "__T__ = the ventricles repolarise",
+      "PR interval ==0.12–0.20 s== (3–5 small squares)",
+      "QRS ==under 0.12 s== (under 3 small squares)",
+      "QT shortens as the heart speeds up, so use QTc: usually under 450 ms in men, 460 ms in women",
+      "Paper at 25 mm/s: 1 small square = ==0.04 s==, 1 big square = ==0.20 s==",
+      "Rate (regular rhythm) = ==300 ÷ big squares== between two R waves"
+    ],
+    trick: "300 – 150 – 100 – 75 – 60 – 50. Count the big squares between two R waves: one = 300/min, two = 150, three = 100, four = 75, five = 60, six = 50.",
+    pearl: "A PR interval longer than 0.20 s (more than one big square) means first-degree AV block.",
+    quiz: [
+      { q: "Which part of the ECG shows the ventricles depolarising?", options: ["P wave", "QRS complex", "T wave", "PR interval"], answer: 1,
+        why: "The QRS complex is ventricular depolarisation. The P wave is atrial depolarisation and the T wave is ventricular repolarisation." },
+      { q: "On standard paper there are 5 big squares between two R waves. What is the heart rate?", options: ["50 per minute", "60 per minute", "75 per minute", "100 per minute"], answer: 1,
+        why: "300 ÷ 5 = 60 beats per minute." },
+      { q: "A PR interval of 0.28 s suggests:", options: ["Normal conduction", "First-degree AV block", "Bundle branch block", "Atrial fibrillation"], answer: 1,
+        why: "Normal PR is 0.12–0.20 s. A fixed, prolonged PR with every P wave conducted is first-degree AV block." }
+    ] },
+  { id: "oxygen", subject: "Physiology · Breathing", title: "The oxygen–haemoglobin curve", diagram: "oxygen",
+    points: [
+      "S-shaped because of ==cooperative binding==: each O₂ that binds makes the next one bind more easily",
+      "__P50__ = the PO₂ at which Hb is half saturated, about ==27 mmHg== in adults",
+      "Arterial blood: PO₂ about 100 mmHg → about 97% saturated",
+      "Venous blood: PO₂ about 40 mmHg → about 75% saturated",
+      "Flat top = a safety margin: saturation stays high even if PO₂ falls a little",
+      "Steep middle = a small drop in PO₂ in the tissues releases ==a lot of O₂==",
+      "__Right shift__ (P50 up, lets go of O₂): more CO₂, more H⁺ (Bohr effect), more 2,3-BPG, exercise, heat",
+      "__Left shift__ (P50 down, holds on to O₂): fetal haemoglobin, carbon monoxide, cold, alkalosis"
+    ],
+    trick: "CADET, face Right! CO₂, Acid, 2,3-DPG (2,3-BPG), Exercise and Temperature all shift the curve to the right.",
+    pearl: "An SpO₂ of about 90% matches a PaO₂ of about 60 mmHg, the edge of the steep part. Below this, saturation falls quickly.",
+    quiz: [
+      { q: "Which of these shifts the curve to the right?", options: ["Carbon monoxide", "Fetal haemoglobin", "A raised body temperature", "Alkalosis"], answer: 2,
+        why: "Heat lowers haemoglobin's affinity for oxygen, so it releases O₂ more easily. The other three shift the curve to the left." },
+      { q: "The P50 of normal adult haemoglobin is about:", options: ["10 mmHg", "27 mmHg", "40 mmHg", "60 mmHg"], answer: 1,
+        why: "Adult haemoglobin is half saturated at about 27 mmHg. A higher P50 means lower affinity." },
+      { q: "Why can a fetus take oxygen from its mother's blood?", options: ["Fetal blood has more plasma", "Fetal haemoglobin has a higher affinity for O₂", "The placenta pumps oxygen across", "Fetal blood is more acidic"], answer: 1,
+        why: "Fetal haemoglobin binds 2,3-BPG poorly, so its affinity for oxygen is higher and its curve sits to the left of the mother's." }
+    ] },
+  { id: "abg", subject: "Medicine · Acid–base", title: "Reading an ABG in 4 steps", diagram: "abg",
+    points: [
+      "Normal: pH ==7.35–7.45== · PaCO₂ ==35–45 mmHg== · HCO₃⁻ ==22–26 mmol/L==",
+      "CO₂ behaves as an __acid__, HCO₃⁻ as a __base__",
+      "Anion gap = Na⁺ − (Cl⁻ + HCO₃⁻), normally about ==8–12 mmol/L==",
+      "Worked example: pH 7.31, PaCO₂ 29, HCO₃⁻ 14, Na⁺ 138, Cl⁻ 100",
+      "1. pH below 7.35 → acidaemia",
+      "2. HCO₃⁻ is low, moving the same way as pH → __metabolic acidosis__",
+      "3. Expected PaCO₂ = 1.5 × 14 + 8 = 29 (± 2). Actual 29 → breathing is compensating as expected",
+      "4. Gap = 138 − (100 + 14) = ==24, high==: think ketoacidosis, lactic acidosis, kidney failure or toxins"
+    ],
+    trick: "ROME. Respiratory = Opposite: pH and PaCO₂ move in opposite directions. Metabolic = Equal: pH and HCO₃⁻ move the same way.",
+    pearl: "Winters' formula: in metabolic acidosis, expected PaCO₂ = 1.5 × HCO₃⁻ + 8 (± 2). A PaCO₂ higher than expected means a second, respiratory acidosis is hiding.",
+    quiz: [
+      { q: "pH 7.50, PaCO₂ 30 mmHg, HCO₃⁻ 23 mmol/L. What is it?", options: ["Metabolic acidosis", "Metabolic alkalosis", "Respiratory acidosis", "Respiratory alkalosis"], answer: 3,
+        why: "pH is high and PaCO₂ is low, moving in opposite directions, so the cause is respiratory. A normal HCO₃⁻ means no metabolic compensation yet: an acute respiratory alkalosis." },
+      { q: "Na⁺ 140, Cl⁻ 104, HCO₃⁻ 12 mmol/L. What is the anion gap?", options: ["12", "24", "36", "128"], answer: 1,
+        why: "140 − (104 + 12) = 24 mmol/L, a high anion gap." },
+      { q: "In a metabolic acidosis with HCO₃⁻ 10 mmol/L, what PaCO₂ do you expect?", options: ["About 15 mmHg", "About 23 mmHg", "About 35 mmHg", "About 45 mmHg"], answer: 1,
+        why: "Winters' formula: 1.5 × 10 + 8 = 23 mmHg (21–25)." }
+    ] },
+  { id: "breast", subject: "Medicine · Public health", title: "Finding breast cancer early", diagram: "breast",
+    points: [
+      "The most common cancer in women in most countries. ==Found early and treated well, it is often curable.==",
+      "About half of cases are in women with no risk factor other than being female and getting older, so __every woman__ should know the signs",
+      "Signs: a new lump in the breast or armpit · a change in size or shape · dimpling, redness or ==orange-peel skin== · a nipple that newly turns in · bloody or unusual nipple discharge",
+      "Most lumps are not cancer, but ==every new lump needs checking==",
+      "Risk rises with age, family history (BRCA1/2), early periods or late menopause, no children or a late first pregnancy, alcohol, obesity after menopause and hormone therapy",
+      "Breastfeeding and physical activity lower the risk",
+      "Early detection: know what is normal for you → clinical breast examination by a trained health worker → mammography where an organised programme exists (WHO: ages 50–69, every 2 years, in well-resourced settings)"
+    ],
+    trick: "60 · 60 · 80. WHO's targets: 60% of cancers found at stage I or II, diagnosis within 60 days, and 80% of patients completing treatment.",
+    pearl: "Every breast lump gets triple assessment: clinical examination, imaging (ultrasound or mammogram) and a needle biopsy.",
+    quiz: [
+      { q: "WHO's Global Breast Cancer Initiative aims for diagnosis within how many days of first presentation?", options: ["7 days", "30 days", "60 days", "180 days"], answer: 2,
+        why: "Pillar 2, timely diagnosis: evaluation, imaging, tissue sampling and pathology completed within 60 days." },
+      { q: "Which of these is NOT a warning sign?", options: ["A lump in the armpit", "Orange-peel skin on the breast", "A nipple that has newly turned in", "Breasts that look and feel the same as usual"], answer: 3,
+        why: "Knowing your normal is the point: changes are what need checking." },
+      { q: "Triple assessment of a breast lump means:", options: ["Blood test, chest X-ray and examination", "Clinical examination, imaging and biopsy", "Two mammograms and an ultrasound", "Self-examination, clinic visit and ultrasound"], answer: 1,
+        why: "Clinical examination, imaging and tissue sampling together give the most reliable diagnosis." }
+    ] }
+];
+
+const STUDENT_STEPS = [
+  { title: "Take Science in Classes XI and XII",
+    text: "MBBS entry needs at least 50% in Biology, Chemistry and Physics, plus Dzongkha and English. Scholarships are competitive, so aim well above the minimum.",
+    source: { label: "Entry requirements (BQPCA)", link: "https://bqpca.education.gov.bt/faq/" } },
+  { title: "Apply for a medical scholarship",
+    text: "The Royal Government of Bhutan offers undergraduate scholarships, including for MBBS, through the Department of Adult and Higher Education. You can study abroad, as Dr. Manisha did in Bangladesh, or at Khesar Gyalpo University of Medical Sciences of Bhutan in Thimphu, which took its first MBBS students in 2024.",
+    source: { label: "DAHE scholarships", link: "http://www.dahe.gov.bt/index.php/division/sssd-mandates/scholarship-category" } },
+  { title: "Study medicine",
+    text: "MBBS is five years of study, followed by a one-year internship.",
+    source: { label: "KGUMSB's MBBS programme (The Bhutanese)", link: "https://thebhutanese.bt/khesar-gyalpo-university-of-medical-sciences-introduces-mbbs-program/" } },
+  { title: "Register and do your internship",
+    text: "Provisional registration with the Bhutan Medical and Health Council lets you start your internship, a one-year programme at JDWNRH in Thimphu. Full registration, after you complete it, lets you practise independently.",
+    source: { label: "Registration FAQ (BMHC)", link: "https://www.bmhc.gov.bt/faq/" } },
+  { title: "Specialise",
+    text: "Doctors can go on to train as specialists, including through the postgraduate residency programmes at KGUMSB's Faculty of Postgraduate Medicine.",
+    source: { label: "Faculty of Postgraduate Medicine", link: "https://www.fopgm.edu.bt/" } }
+];
+
+const TIPS = [
+  { title: "Grades and activities both count.", text: "Dr. Manisha's scholarships recognised co-curricular achievement as well as marks. Keep both strong." },
+  { title: "Join a student organisation early.", text: "As Co-Chief of IFMSA Bangladesh, she learned to lead, organise and work with medical students from many countries." },
+  { title: "Say yes to research and outreach.", text: "A survey or a screening day in your student years teaches you how evidence is made, and how it reaches people." },
+  { title: "Share what you learn.", text: "Explaining science to others is one of the best ways to master it. Dr. Manisha has mentored and tutored junior students since medical school, and began sharing science through her school's science club and exhibitions." }
+];
+
+const LINKS = [
+  { name: "Department of Adult and Higher Education", about: "Royal Government of Bhutan scholarships and announcements.", link: "http://www.dahe.gov.bt/" },
+  { name: "Khesar Gyalpo University of Medical Sciences of Bhutan", about: "Bhutan's medical university: MBBS, nursing, public health and postgraduate training.", link: "https://www.kgumsb.edu.bt/" },
+  { name: "Bhutan Medical and Health Council", about: "Registration for doctors and health professionals in Bhutan.", link: "https://www.bmhc.gov.bt/" },
+  { name: "IFMSA", about: "The International Federation of Medical Students' Associations.", link: "https://ifmsa.org/" },
+  { name: "WHO: Global Breast Cancer Initiative", about: "WHO's plan to reduce breast cancer deaths by 2.5% a year.", link: "https://www.who.int/initiatives/global-breast-cancer-initiative" },
+  { name: "Khan Academy: Health and medicine", about: "Free lessons on how the human body works, for school and pre-med students.", link: "https://www.khanacademy.org/science/health-and-medicine" }
+];
+
+// What people can ask for in the request form.
+const REQUEST_TYPES = [
+  "Mentoring or tutoring",
+  "A talk at my school or event",
+  "Research or collaboration",
+  "A question"
+];
+/* ======================= END OF YOUR CONTENT ======================= */
+</script>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <filter id="rough" filterUnits="userSpaceOnUse" x="-60" y="-60" width="600" height="480">
+      <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+</svg>
+
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Dr. Pulse Bhutan, back to top">
+      <svg viewBox="0 0 40 24" width="34" height="20" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><path d="M1 15h8l3-3 3 3h2l2 2 4-15 2 7 2-2 3 13 2-5h7"/></svg>
+      Dr. Pulse Bhutan
+    </a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#about">About</a>
+      <a href="#journey">Journey</a>
+      <a href="#research">Research</a>
+      <a href="#bhutan">Why Bhutan</a>
+      <a href="#work">Impact</a>
+      <a href="#gallery-sec">Gallery</a>
+      <a href="#notebook">Notes</a>
+      <a href="#students">Students</a>
+      <a href="#connect">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero ecg" aria-labelledby="hero-title">
+    <div class="wrap hero-grid">
+      <div class="hero-text">
+        <p class="eyebrow mono-label" id="hero-name"></p>
+        <h1 id="hero-title">Dr. Pulse <span>Bhutan</span></h1>
+        <p class="tagline">Research, care and advocacy for Bhutan and beyond.</p>
+        <p class="roles mono-label"><span>Doctor</span><span>Early-career researcher</span><span>Science communicator</span><span>Mentor</span></p>
+        <p class="lede">Dr. Manisha Kafley is a Bhutanese doctor and early-career researcher. Fresh from her MBBS, she is a medical intern at the national referral hospital in Thimphu and keeps researching alongside her training. Dr. Pulse Bhutan brings together her field research, her work in communities, and the notes, mentoring and guidance she shares with young scientists and future doctors across Bhutan.</p>
+        <div class="cta-row">
+          <a class="btn primary" href="#research">See her research</a>
+          <a class="btn" href="#notebook">Open the notes</a>
+        </div>
+      </div>
+      <figure class="hero-photo">
+        <img src="hero.jpg" alt="Dr. Manisha Kafley in a white coat outside the Mother and Child Hospital at JDWNRH, Thimphu">
+        <figcaption>Now &middot; Medical intern, JDWNRH Thimphu</figcaption>
+      </figure>
+    </div>
+    <div class="trace" id="trace" aria-hidden="true">
+      <svg id="trace-svg"><path class="line" id="trace-path"/><circle class="halo" id="trace-halo" r="11"/><circle class="blip" id="trace-blip" r="4.5"/></svg>
+      <span class="cal mono-label">II &middot; 25 mm/s &middot; 10 mm/mV</span>
+    </div>
+    <div class="wrap"><p class="mono-label vitals-head">Vital signs</p><dl class="vitals" id="vitals"></dl></div>
+  </section>
+
+  <section class="block" id="about" aria-labelledby="about-name">
+    <div class="wrap about">
+      <figure class="portrait-fig">
+        <div class="portrait ecg" id="portrait"></div>
+        <figcaption id="portrait-cap"></figcaption>
+      </figure>
+      <div class="about-body">
+        <div class="sec-head" style="margin-bottom:1.25rem">
+          <p class="mono-label">Meet the doctor</p>
+          <h2 id="about-name"></h2>
+        </div>
+        <div class="bio" id="bio"></div>
+        <aside class="why-name">
+          <svg viewBox="0 0 40 24" width="30" height="18" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><path d="M1 15h8l3-3 3 3h2l2 2 4-15 2 7 2-2 3 13 2-5h7"/></svg>
+          <p><strong>Why &ldquo;Dr. Pulse Bhutan&rdquo;?</strong> A pulse is the first vital sign a doctor checks. Dr. Manisha's research checks the health of whole communities, so that care can reach people early. Her notes and mentoring aim to keep science alive and growing among Bhutan's young people.</p>
+        </aside>
+        <ul class="facts" id="facts"></ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="block band" id="journey" aria-labelledby="journey-title">
+    <div class="wrap journey-wrap">
+      <div class="sec-head">
+        <p class="mono-label">Journey</p>
+        <h2 id="journey-title">From Gelephu to the national referral hospital</h2>
+        <p>Each step was earned: a school scholarship, a national scholarship, first positions in medical school and an honours degree.</p>
+      </div>
+      <div class="journey-col">
+        <ol class="journey" id="journey-list"></ol>
+        <figure class="thanks">
+          <p class="mono-label">Acknowledgements</p>
+          <blockquote id="thanks-text"></blockquote>
+          <figcaption id="thanks-sign"></figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="research" aria-labelledby="research-title">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="mono-label">Research</p>
+        <h2 id="research-title">Science that starts in the community</h2>
+        <p>Research has run alongside Dr. Manisha's medical training from the start, and continues during her internship. As a student she went where the questions are: rural schools, villages and homes. These two field studies shaped her focus on prevention, early detection, and the health of women and children.</p>
+      </div>
+      <div class="studies" id="studies"></div>
+      <p class="consent-note">Photos from both studies are shared with the permission and consent of the participants shown.</p>
+      <div class="interests-wrap">
+        <h3 class="list-head">Research interests</h3>
+        <ul class="interests" id="interests"></ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="block band" id="bhutan" aria-labelledby="bhutan-title">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="mono-label">Why Bhutan</p>
+        <h2 id="bhutan-title">A small country with big scientific potential</h2>
+        <p>Bhutan is small enough to reach almost every citizen, and bold enough to try new ideas first. For health research, that is a rare advantage.</p>
+      </div>
+      <div class="fact-grid" id="bhutan-facts"></div>
+      <div class="vision">
+        <div class="vision-text">
+          <p class="mono-label">Gelephu Mindfulness City</p>
+          <h3 id="vision-title"></h3>
+          <p id="vision-text"></p>
+          <p id="vision-personal" class="vision-personal"></p>
+        </div>
+        <div class="card questions-card">
+          <h3 class="list-head">Questions she wants to answer</h3>
+          <ul class="questions" id="questions"></ul>
+        </div>
+      </div>
+      <div class="refs">
+        <h3 class="list-head">References</h3>
+        <ol id="refs"></ol>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="work" aria-labelledby="work-title">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="mono-label">Care &middot; Advocacy &middot; Mentoring</p>
+        <h2 id="work-title">Gross National Health</h2>
+        <p>Bhutan measures its progress in happiness, and good health is where that starts. Beyond her research, Dr. Manisha's work spans the hospital where care happens, the communities where people first hear about prevention, and the students who will carry science forward.</p>
+      </div>
+      <div class="pillars" id="pillars"></div>
+      <div class="record">
+        <div><h3 class="list-head">Talks and presentations</h3><ul class="talks" id="talks"></ul></div>
+        <div><h3 class="list-head">Honours and recognition</h3><ul class="honours" id="honours"></ul></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block band" id="gallery-sec" aria-labelledby="gallery-title">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="mono-label">In the field</p>
+        <h2 id="gallery-title">Where the work happens</h2>
+        <p>Field research in rural Mymensingh, outreach with women and schoolgirls, student leadership with IFMSA Bangladesh, and clinical training at Bhutan's national referral hospital.</p>
+      </div>
+      <div class="chips" id="gallery-filters" role="group" aria-label="Filter photos"></div>
+      <div class="gallery" id="gallery"></div>
+      <p class="consent-note">All photos are shared with the permission and consent of the people shown in them.</p>
+      <div class="community-cta">
+        <a class="btn primary" href="#connect" data-request="1">Invite her to your school</a>
+        <a class="btn" href="#connect" data-request="0">Ask for mentoring</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-labelledby="lb-caption" hidden>
+    <div class="lb-inner">
+      <div class="lb-bar"><span class="lb-count" id="lb-count"></span><button class="lb-btn" id="lb-close" type="button">Close</button></div>
+      <figure class="lb-fig"><img id="lb-img" alt=""><figcaption id="lb-caption"></figcaption></figure>
+      <div class="lb-nav"><button class="lb-btn" id="lb-prev" type="button">&larr; Previous</button><button class="lb-btn" id="lb-next" type="button">Next &rarr;</button></div>
+    </div>
+  </div>
+
+  <section class="block" id="notebook" aria-labelledby="notebook-title">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="mono-label">Handwritten notes</p>
+        <h2 id="notebook-title">One page. One topic. Everything that matters.</h2>
+        <p>Core physiology and medicine, written the way Dr. Manisha studies: one clear diagram, the numbers worth remembering, a memory trick and a clinical pearl. Each page ends with a three-question self-test.</p>
+      </div>
+      <div class="note-tabs" id="note-tabs" role="group" aria-label="Choose a note"></div>
+      <article class="sheet" id="sheet" aria-live="polite"></article>
+      <div class="quiz" id="quiz"></div>
+      <p class="notebook-note">These notes are for learning and revision, not for treating patients. Always check them against your textbooks and teachers.</p>
+    </div>
+  </section>
+
+  <section class="block band" id="students" aria-labelledby="students-title">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="mono-label">For students</p>
+        <h2 id="students-title">So you want to be a doctor?</h2>
+        <p>The path in Bhutan, step by step, with links to the official sources. Rules change, so always check with each office before you apply.</p>
+      </div>
+      <ol class="steps" id="steps"></ol>
+      <div class="student-extra">
+        <div><h3 class="list-head">Dr. Manisha's advice</h3><ul class="tips" id="tips"></ul></div>
+        <div><h3 class="list-head">Useful links</h3><ul class="links" id="links"></ul></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="connect" aria-labelledby="connect-title">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="mono-label">Learn &middot; Invite &middot; Collaborate</p>
+        <h2 id="connect-title">Work with Dr. Manisha</h2>
+        <p>Students, teachers, schools and organisations are welcome to get in touch. Choose what you need and write a short message. It opens in your own email app, ready to send.</p>
+      </div>
+      <div class="offers">
+        <div class="offer"><h3>Mentoring and tutoring</h3><p>Help with Class XI–XII Biology and Chemistry, early MBBS subjects such as physiology, and advice on scholarships and medical school. Dr. Manisha has tutored junior Bhutanese and international students as a volunteer since her medical school years.</p></div>
+        <div class="offer"><h3>School and community talks</h3><p>Breast cancer awareness, healthy habits and careers in medicine, for schools, clubs and community groups.</p></div>
+        <div class="offer"><h3>Research and collaboration</h3><p>Cancer prevention, women's health and medical education projects in Bhutan and beyond.</p></div>
+      </div>
+      <div class="connect">
+        <form class="card form" id="req-form" novalidate>
+          <div class="row2">
+            <div class="field"><label for="req-type">I would like</label><select id="req-type"></select></div>
+            <div class="field"><label for="req-name">Your name</label><input id="req-name" autocomplete="name" placeholder="Pema Wangmo"></div>
+          </div>
+          <div class="row2">
+            <div class="field"><label for="req-org">School or organisation <span class="opt-hint">(optional)</span></label><input id="req-org" autocomplete="organization" placeholder="e.g. Gelephu Higher Secondary School"></div>
+            <div class="field"><label for="req-level">Class, year or role <span class="opt-hint">(optional)</span></label><input id="req-level" placeholder="e.g. Class XII Science"></div>
+          </div>
+          <div class="field"><label for="req-msg">Your message</label><textarea id="req-msg" placeholder="What would you like help with, and when?"></textarea></div>
+          <div class="form-actions">
+            <button class="btn primary" type="submit">Write the email</button>
+            <p class="form-error" id="req-error" hidden></p>
+          </div>
+          <div class="composed" id="req-out" hidden>
+            <p id="req-status"></p>
+            <pre id="req-text"></pre>
+            <div><button class="btn small" type="button" id="req-copy">Copy message</button></div>
+          </div>
+        </form>
+        <aside class="card side-card">
+          <span class="mono-label">Email</span>
+          <div class="email-row">
+            <a id="email" href="#connect"></a>
+            <button class="btn small" id="copy-email" type="button">Copy</button>
+          </div>
+          <p>Nothing you type here is stored on this website. Your message goes straight from your own email account.</p>
+          <ul class="socials" id="socials"></ul>
+        </aside>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="row">
+      <p>&copy; <span id="year"></span> Dr. Pulse Bhutan &middot; <span id="foot-name"></span></p>
+      <p>Made in Bhutan, for Bhutan and beyond</p>
+    </div>
+    <p>This website shares education and personal experience. It is not medical advice. For a health concern, please see a doctor or health worker.</p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  "use strict";
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s == null ? "" : s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const txt = (s) => esc(s).replace(/\[([^\]]+)\]/g, '<mark class="todo">[$1]</mark>');
+  const hand = (s) => esc(s).replace(/==(.+?)==/g, '<mark class="hl">$1</mark>').replace(/__(.+?)__/g, '<u class="pen">$1</u>');
+  const isUrl = (u) => /^https?:\/\//i.test(u || "");
+  const ext = (u) => isUrl(u) ? ' target="_blank" rel="noopener"' : "";
+  function copyText(text, btn, label, selectEl) {
+    const reset = (ms) => setTimeout(() => { btn.textContent = label; }, ms);
+    const fallback = () => {
+      if (selectEl) { const r = document.createRange(); r.selectNodeContents(selectEl); const s = window.getSelection(); s.removeAllRanges(); s.addRange(r); }
+      btn.textContent = "Selected, press Ctrl+C"; reset(2600);
+    };
+    try { navigator.clipboard.writeText(text).then(() => { btn.textContent = "Copied"; reset(1800); }, fallback); }
+    catch (e) { fallback(); }
+  }
+
+  /* ---------- profile ---------- */
+  $("hero-name").textContent = PROFILE.name + " · MBBS (Honours)";
+  $("about-name").innerHTML = txt(PROFILE.name);
+  $("foot-name").textContent = PROFILE.name;
+  $("year").textContent = new Date().getFullYear();
+  $("portrait").innerHTML = '<span class="mono" aria-hidden="true">' + esc(PROFILE.initials) + "</span>" +
+    (PROFILE.photo ? '<img src="' + esc(PROFILE.photo) + '" alt="Portrait of ' + esc(PROFILE.name) + '">' : "");
+  $("portrait-cap").textContent = PROFILE.photo ? (PROFILE.photoCaption || "") : "";
+  const pimg = $("portrait").querySelector("img");
+  if (pimg) pimg.addEventListener("error", () => { pimg.remove(); $("portrait-cap").textContent = ""; });
+  $("bio").innerHTML = PROFILE.bio.map((p) => "<p>" + txt(p) + "</p>").join("");
+  $("facts").innerHTML = PROFILE.facts.map((f) => '<li><span class="mono-label">' + esc(f.label) + "</span><span>" + txt(f.value) + "</span></li>").join("");
+  $("vitals").innerHTML = VITALS.map((v) => '<div><dt class="mono-label">' + esc(v.label) + "</dt><dd>" + txt(v.value) + "</dd></div>").join("");
+
+  /* ---------- photo viewer (gallery, studies, certificates) ---------- */
+  const lb = $("lightbox");
+  let lbList = [], lbi = 0, lastFocus = null;
+  function showPhoto(i) {
+    lbi = (i + lbList.length) % lbList.length;
+    $("lb-img").src = lbList[lbi].image; $("lb-img").alt = lbList[lbi].caption;
+    $("lb-caption").textContent = lbList[lbi].caption;
+    $("lb-count").textContent = (lbi + 1) + " / " + lbList.length;
+    $("lb-prev").hidden = $("lb-next").hidden = lbList.length < 2;
+  }
+  function openLb(list, i) {
+    lbList = list; lastFocus = document.activeElement; showPhoto(i);
+    lb.hidden = false; document.documentElement.style.overflow = "hidden"; $("lb-close").focus();
+  }
+  function closeLb() { lb.hidden = true; document.documentElement.style.overflow = ""; if (lastFocus && lastFocus.focus) lastFocus.focus(); }
+  $("lb-close").addEventListener("click", closeLb);
+  $("lb-prev").addEventListener("click", () => showPhoto(lbi - 1));
+  $("lb-next").addEventListener("click", () => showPhoto(lbi + 1));
+  lb.addEventListener("click", (e) => { if (e.target === lb || e.target.classList.contains("lb-fig")) closeLb(); });
+  document.addEventListener("keydown", (e) => {
+    if (lb.hidden) return;
+    if (e.key === "Escape") closeLb();
+    else if (e.key === "ArrowLeft" && lbList.length > 1) showPhoto(lbi - 1);
+    else if (e.key === "ArrowRight" && lbList.length > 1) showPhoto(lbi + 1);
+    else if (e.key === "Tab") {
+      const f = Array.from(lb.querySelectorAll("button")).filter((b) => !b.hidden), first = f[0], last = f[f.length - 1];
+      if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+      else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+    }
+  });
+
+  /* ---------- journey ---------- */
+  $("journey-list").innerHTML = JOURNEY.map((j) =>
+    '<li class="stop' + (j.now ? " now" : "") + (j.next ? " next" : "") + '"><span class="dot" aria-hidden="true"></span><div>' +
+      '<div class="where mono-label"><span>' + esc(j.place) + "</span>" + (j.year ? '<span class="yr">' + esc(j.year) + "</span>" : "") +
+      (j.now ? '<span class="badge">Now</span>' : "") + "</div>" +
+      "<h3>" + txt(j.title) + "</h3><p>" + txt(j.text) + "</p></div></li>").join("");
+
+  $("thanks-text").textContent = ACKNOWLEDGEMENT.text;
+  $("thanks-sign").textContent = ACKNOWLEDGEMENT.sign;
+
+  /* ---------- research ---------- */
+  $("studies").innerHTML = RESEARCH.map((r, ri) =>
+    '<article class="study"><div>' +
+      '<div class="study-top mono-label"><span class="kicker">' + esc(r.kicker) + '</span><span class="when">' + esc(r.when) + "</span></div>" +
+      "<h3>" + txt(r.title) + "</h3>" +
+      (r.question ? '<p class="question"><span class="mono-label">Research question</span>' + txt(r.question) + "</p>" : "") +
+      '<p class="summary">' + txt(r.summary) + "</p>" +
+      (r.findings ? '<p class="finding"><span class="mono-label">Key finding</span>' + txt(r.findings) + "</p>" : "") +
+      '<dl class="meta">' + r.meta.map((m) => '<div><dt class="mono-label">' + esc(m[0]) + "</dt><dd>" + txt(m[1]) + "</dd></div>").join("") + "</dl>" +
+    '</div><div class="study-photos">' +
+      r.photos.map((ph, pi) => '<button class="shot" type="button" data-r="' + ri + '" data-p="' + pi + '" aria-label="Open photo: ' + esc(ph.caption) + '"><img src="' + esc(ph.image) + '" alt="' + esc(ph.caption) + '" loading="lazy"></button>').join("") +
+    "</div></article>").join("");
+  $("studies").addEventListener("click", (e) => { const b = e.target.closest(".shot"); if (b) openLb(RESEARCH[+b.dataset.r].photos, +b.dataset.p); });
+  $("studies").querySelectorAll("img").forEach((img) => img.addEventListener("error", () => img.closest(".shot").remove()));
+  $("interests").innerHTML = INTERESTS.map((i) => "<li>" + esc(i) + "</li>").join("");
+
+  /* ---------- why Bhutan ---------- */
+  const refs = (list) => (list || []).map((n) => '<sup class="ref"><a href="#ref-' + n + '" aria-label="Reference ' + n + '">[' + n + "]</a></sup>").join("");
+  $("bhutan-facts").innerHTML = BHUTAN_FACTS.map((f) =>
+    '<div class="fact"><span class="num">' + esc(f.stat) + "</span><p>" + txt(f.text) + refs(f.ref) + "</p></div>").join("");
+  $("vision-title").textContent = VISION.title;
+  $("vision-text").innerHTML = txt(VISION.text) + refs(VISION.ref);
+  $("vision-personal").innerHTML = txt(VISION.personal);
+  $("questions").innerHTML = VISION.questions.map((q) => "<li>" + txt(q) + "</li>").join("");
+  $("refs").innerHTML = REFERENCES.map((r, i) =>
+    '<li id="ref-' + (i + 1) + '">' + esc(r.text) + (isUrl(r.link) ? ' <a href="' + esc(r.link) + '"' + ext(r.link) + ">Link &#8599;</a>" : "") + "</li>").join("");
+
+  /* ---------- impact ---------- */
+  $("pillars").innerHTML = PILLARS.map((p) =>
+    '<div class="pillar"><span class="mono-label">' + esc(p.key) + "</span><h3>" + txt(p.title) + "</h3><ul>" +
+      p.items.map((i) => "<li><h4>" + txt(i.title) + "</h4><p>" + txt(i.text) + "</p></li>").join("") + "</ul></div>").join("");
+  $("talks").innerHTML = TALKS.map((t) =>
+    '<li><span class="role">' + esc(t.role) + "</span><div><strong>" +
+      (isUrl(t.link) ? '<a href="' + esc(t.link) + '"' + ext(t.link) + ">" + txt(t.title) + "</a>" : txt(t.title)) + "</strong>" +
+      '<span class="ev">' + txt(t.event) + (t.year ? ' <span class="yr">&middot; ' + esc(t.year) + "</span>" : "") + "</span></div></li>").join("");
+  $("honours").innerHTML = HONOURS.map((h, i) => "<li>" + txt(h.text) +
+    (h.cert ? '<button class="cert-btn" type="button" data-h="' + i + '">View certificate</button>' : "") + "</li>").join("");
+  $("honours").addEventListener("click", (e) => {
+    const b = e.target.closest(".cert-btn"); if (!b) return;
+    const h = HONOURS[+b.dataset.h];
+    openLb([{ image: h.cert, caption: h.text }], 0);
+  });
+
+  /* ---------- gallery with filters ---------- */
+  const gal = $("gallery");
+  const cats = ["All"].concat(Array.from(new Set(GALLERY.map((g) => g.cat))));
+  let gFilter = "All", shownPhotos = [];
+  function renderGallery() {
+    $("gallery-filters").innerHTML = cats.map((c) =>
+      '<button class="chip" type="button" data-c="' + esc(c) + '" aria-pressed="' + (c === gFilter) + '">' + esc(c) +
+      (c === "All" ? "" : " · " + GALLERY.filter((g) => g.cat === c).length) + "</button>").join("");
+    shownPhotos = GALLERY.filter((g) => gFilter === "All" || g.cat === gFilter);
+    gal.innerHTML = shownPhotos.map((g, i) =>
+      '<button class="tile" type="button" data-i="' + i + '" aria-label="Open photo: ' + esc(g.caption) + '">' +
+        '<img src="' + esc(g.image) + '" alt="' + esc(g.caption) + '" loading="lazy">' +
+        '<span class="cap"><span class="where mono-label">' + esc(g.cat + " · " + g.where) + '</span><span class="tx">' + esc(g.caption) + "</span></span></button>").join("");
+    gal.querySelectorAll("img").forEach((img) => img.addEventListener("error", () => img.closest(".tile").remove()));
+  }
+  $("gallery-filters").addEventListener("click", (e) => { const c = e.target.closest(".chip"); if (c) { gFilter = c.dataset.c; renderGallery(); } });
+  gal.addEventListener("click", (e) => { const t = e.target.closest(".tile"); if (t) openLb(shownPhotos, +t.dataset.i); });
+  renderGallery();
+
+  /* ---------- notebook: hand-drawn diagrams ---------- */
+  const DIAGRAMS = {
+    ecg: function () {
+      const tr = "M10 170 H60 Q70 140 80 170 H100 L104 178 L110 60 L116 192 L120 170 H150 Q172 116 195 170 H260 Q270 140 280 170 H300 L304 178 L310 60 L316 192 L320 170 H350 Q372 116 395 170 H430";
+      return '<svg viewBox="0 0 440 300" role="img" aria-label="Hand-drawn ECG showing P wave, QRS complex and T wave, the PR, QRS and QT intervals, and two R waves four big squares apart, a rate of 75 per minute">' +
+        '<defs><pattern id="ecg-s" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M10 0H0V10" fill="none" stroke="rgba(214,70,80,.16)" stroke-width=".8"/></pattern>' +
+        '<pattern id="ecg-b" width="50" height="50" patternUnits="userSpaceOnUse" x="10" y="20"><rect width="50" height="50" fill="url(#ecg-s)"/><path d="M50 0H0V50" fill="none" stroke="rgba(214,70,80,.34)" stroke-width="1"/></pattern></defs>' +
+        '<rect x="10" y="20" width="420" height="200" fill="url(#ecg-b)"/>' +
+        '<g filter="url(#rough)"><path class="ink" d="' + tr + '"/>' +
+        '<path class="ink-red" d="M60 236 H100 M60 230 V242 M100 230 V242 M100 236 H120 M120 230 V242 M100 270 H195 M100 264 V276 M195 264 V276 M110 36 H310 M110 30 V42 M310 30 V42"/></g>' +
+        '<text x="70" y="146" text-anchor="middle" class="b">P</text><text x="110" y="52" text-anchor="middle" class="b">R</text>' +
+        '<text x="97" y="194" text-anchor="middle" class="sm">Q</text><text x="123" y="208" text-anchor="middle" class="sm">S</text>' +
+        '<text x="172" y="134" text-anchor="middle" class="b">T</text><text x="135" y="163" text-anchor="middle" class="sm pencil">ST</text>' +
+        '<text x="80" y="257" text-anchor="middle" class="sm red">PR</text><text x="112" y="257" text-anchor="middle" class="sm red">QRS</text>' +
+        '<text x="147" y="292" text-anchor="middle" class="sm red">QT</text>' +
+        '<text x="210" y="16" text-anchor="middle" class="sm red">R–R = 4 big squares → 300 ÷ 4 = 75/min</text>' +
+        '<text x="430" y="257" text-anchor="end" class="sm pencil">1 small square = 0.04 s</text>' +
+        '<text x="430" y="292" text-anchor="end" class="sm pencil">1 big square = 0.20 s</text></svg>';
+    },
+    oxygen: function () {
+      const X = (p) => 60 + 3.6 * p, Y = (s) => 270 - 2.3 * s;
+      const sat = (p, p50) => 100 * Math.pow(p, 2.7) / (Math.pow(p, 2.7) + Math.pow(p50, 2.7));
+      const curve = (p50) => { let d = ""; for (let p = 0; p <= 100; p += 2) d += (p ? " L" : "M") + X(p).toFixed(1) + " " + Y(sat(p, p50)).toFixed(1); return d; };
+      const ticks = [0, 20, 40, 60, 80, 100].map((p) => '<text x="' + X(p) + '" y="290" text-anchor="middle" class="sm pencil">' + p + "</text>").join("") +
+        [0, 25, 50, 75, 100].map((s) => '<text x="50" y="' + (Y(s) + 4) + '" text-anchor="end" class="sm pencil">' + s + "</text>").join("");
+      const ven = [X(40), Y(sat(40, 27))], art = [X(100), Y(sat(100, 27))], half = [X(27), Y(50)];
+      return '<svg viewBox="0 0 440 320" role="img" aria-label="Hand-drawn S-shaped oxygen-haemoglobin dissociation curve. P50 is about 27 mmHg. Arterial blood at 100 mmHg is about 97% saturated and venous blood at 40 mmHg about 75%. Dashed curves show a right shift and a left shift.">' +
+        '<g filter="url(#rough)"><path class="ink" d="M60 34 V270 H424"/>' +
+        '<path class="ink" d="' + curve(27) + '"/>' +
+        '<path class="ink-red dash" d="' + curve(36) + '"/>' +
+        '<path class="ink-pencil dash" d="' + curve(19) + '"/>' +
+        '<path class="ink-pencil dash" d="M60 ' + half[1] + " H" + half[0] + " V270" + '"/>' +
+        '<path class="ink-pencil" d="M' + (ven[0] + 3) + " " + (ven[1] + 4) + " L246 166 M" + (half[0] + 4) + " " + (half[1] + 3) + ' L246 200"/>' +
+        '<path class="ink-red dash" d="M236 230 H262"/><path class="ink-pencil dash" d="M236 252 H262"/></g>' +
+        '<circle class="fill-pen" cx="' + half[0] + '" cy="' + half[1] + '" r="4"/><circle class="fill-pen" cx="' + ven[0] + '" cy="' + ven[1] + '" r="4"/><circle class="fill-red" cx="' + art[0] + '" cy="' + art[1] + '" r="4"/>' +
+        ticks +
+        '<text x="268" y="234" class="sm red">right shift: lets go of O₂</text><text x="268" y="256" class="sm pencil">left shift: holds on to O₂</text>' +
+        '<text x="420" y="30" text-anchor="end" class="sm red">arterial ≈ 97%</text>' +
+        '<text x="250" y="172" class="sm">venous: 40 mmHg ≈ 75%</text>' +
+        '<text x="250" y="206" class="sm">P50 ≈ 27 mmHg (half full)</text>' +
+        '<text x="242" y="314" text-anchor="middle" class="sm">PO₂ (mmHg)</text>' +
+        '<text x="14" y="152" text-anchor="middle" class="sm" transform="rotate(-90 14 152)">Hb saturation (%)</text></svg>';
+    },
+    abg: function () {
+      const boxes = [
+        ["pH first", "below 7.35 = acidaemia · above 7.45 = alkalaemia"],
+        ["Who caused it?", "PaCO₂ (respiratory) or HCO₃⁻ (metabolic) · ROME"],
+        ["Is the other value compensating?", "metabolic acidosis: PaCO₂ ≈ 1.5 × HCO₃⁻ + 8"],
+        ["Metabolic acidosis? Check the gap", "AG = Na⁺ − (Cl⁻ + HCO₃⁻) · normal 8–12"]
+      ];
+      let shapes = "", words = "";
+      boxes.forEach((b, i) => {
+        const y = 12 + i * 80;
+        shapes += '<rect class="ink" x="52" y="' + y + '" width="378" height="56" rx="7"/>' +
+          '<circle class="ink-red" cx="24" cy="' + (y + 28) + '" r="15"/>' +
+          (i < 3 ? '<path class="ink-red" d="M241 ' + (y + 60) + " V" + (y + 76) + " M235 " + (y + 70) + " L241 " + (y + 77) + " L247 " + (y + 70) + '"/>' : "");
+        words += '<text x="24" y="' + (y + 34) + '" text-anchor="middle" class="big red" style="font-size:22px">' + (i + 1) + "</text>" +
+          '<text x="66" y="' + (y + 24) + '" class="b">' + b[0] + "</text>" +
+          '<text x="66" y="' + (y + 45) + '" class="sm pencil">' + b[1] + "</text>";
+      });
+      return '<svg viewBox="0 0 440 320" role="img" aria-label="Four-step flowchart for reading an arterial blood gas: check pH, find the cause, check compensation, and for metabolic acidosis calculate the anion gap">' +
+        '<g filter="url(#rough)">' + shapes + "</g>" + words + "</svg>";
+    },
+    breast: function () {
+      const p = [
+        ["Early diagnosis", "60%", "at stage I–II"],
+        ["Timely diagnosis", "60 days", "to diagnosis"],
+        ["Full treatment", "80%", "finish treatment"]
+      ];
+      let shapes = "", words = "";
+      p.forEach((b, i) => {
+        const x = 4 + i * 150, cx = x + 66;
+        shapes += '<rect class="ink" x="' + x + '" y="30" width="132" height="96" rx="8"/>' +
+          (i < 2 ? '<path class="ink-red" d="M' + (x + 135) + " 78 H" + (x + 148) + " M" + (x + 142) + " 72 L" + (x + 149) + " 78 L" + (x + 142) + ' 84"/>' : "");
+        words += '<text x="' + cx + '" y="54" text-anchor="middle" class="sm b">' + b[0] + "</text>" +
+          '<text x="' + cx + '" y="90" text-anchor="middle" class="big red">' + b[1] + "</text>" +
+          '<text x="' + cx + '" y="114" text-anchor="middle" class="sm pencil">' + b[2] + "</text>";
+      });
+      return '<svg viewBox="0 0 440 330" role="img" aria-label="WHO Global Breast Cancer Initiative: 60% found at stage I or II, diagnosis within 60 days, 80% complete treatment, aiming to cut deaths by 2.5% a year and save 2.5 million lives by 2040. Below, triple assessment of a breast lump: clinical exam, imaging and biopsy.">' +
+        '<g filter="url(#rough)">' + shapes +
+        '<path class="ink" d="M220 210 L110 298 L330 298 Z"/></g>' +
+        '<circle class="fill-red" cx="220" cy="210" r="5"/><circle class="fill-red" cx="110" cy="298" r="5"/><circle class="fill-red" cx="330" cy="298" r="5"/>' +
+        '<text x="220" y="18" text-anchor="middle" class="sm pencil">WHO Global Breast Cancer Initiative</text>' + words +
+        '<text x="220" y="152" text-anchor="middle" class="red">Goal: 2.5% fewer deaths every year</text>' +
+        '<text x="220" y="173" text-anchor="middle" class="red">→ 2.5 million lives saved by 2040</text>' +
+        '<text x="220" y="200" text-anchor="middle" class="sm b">Clinical exam</text>' +
+        '<text x="110" y="320" text-anchor="middle" class="sm b">Imaging</text><text x="330" y="320" text-anchor="middle" class="sm b">Biopsy</text>' +
+        '<text x="220" y="264" text-anchor="middle" class="sm">triple</text><text x="220" y="282" text-anchor="middle" class="sm">assessment</text></svg>';
+    }
+  };
+
+  /* ---------- notebook: pages and self-tests ---------- */
+  let current = 0;
+  function renderTabs() {
+    $("note-tabs").innerHTML = NOTES.map((n, i) =>
+      '<button class="note-tab" type="button" data-i="' + i + '" aria-pressed="' + (i === current) + '">' +
+        '<span class="mono-label">' + esc(n.subject) + "</span><strong>" + esc(n.title) + "</strong></button>").join("");
+  }
+  function renderNote() {
+    const n = NOTES[current];
+    $("sheet").innerHTML =
+      '<div class="sheet-head"><h3>' + esc(n.title) + '</h3><span class="subject">' + esc(n.subject) + "</span></div>" +
+      '<div class="sheet-body"><div class="diagram">' + (DIAGRAMS[n.diagram] ? DIAGRAMS[n.diagram]() : "") + "</div>" +
+      '<ul class="points">' + n.points.map((p) => "<li>" + hand(p) + "</li>").join("") + "</ul></div>" +
+      '<div class="sheet-boxes"><div class="sticky"><span class="box-label">Memory trick</span>' + hand(n.trick) + "</div>" +
+      '<div class="pearl"><span class="box-label">Clinical pearl</span>' + hand(n.pearl) + "</div></div>" +
+      '<div class="sheet-foot"><span class="pencil-note">Check against your textbook</span><span class="signature">Dr. Manisha Kafley</span></div>';
+    renderQuiz();
+  }
+  function renderQuiz() {
+    const n = NOTES[current];
+    $("quiz").innerHTML = '<div class="quiz-head"><h3>Test yourself: ' + esc(n.title) + '</h3><span class="score" id="score">0 of ' + n.quiz.length + " answered</span></div>" +
+      '<ol class="qs">' + n.quiz.map((q, qi) =>
+        '<li data-q="' + qi + '"><p class="qtext">' + esc(q.q) + '</p><div class="opts">' +
+          q.options.map((o, oi) => '<button class="opt" type="button" data-o="' + oi + '">' + esc(o) + "</button>").join("") +
+        '</div><p class="explain" hidden></p></li>').join("") + "</ol>";
+  }
+  let answered = 0, correct = 0;
+  $("quiz").addEventListener("click", (e) => {
+    const b = e.target.closest(".opt"); if (!b || b.disabled) return;
+    const li = b.closest("li"), q = NOTES[current].quiz[+li.dataset.q], pick = +b.dataset.o;
+    li.querySelectorAll(".opt").forEach((o) => { o.disabled = true; if (+o.dataset.o === q.answer) o.classList.add("right"); });
+    if (pick !== q.answer) b.classList.add("wrong");
+    const ok = pick === q.answer;
+    answered++; if (ok) correct++;
+    const ex = li.querySelector(".explain");
+    ex.innerHTML = '<strong class="' + (ok ? "ok" : "no") + '">' + (ok ? "Correct. " : "Not quite. ") + "</strong>" + esc(q.why);
+    ex.hidden = false;
+    const total = NOTES[current].quiz.length;
+    $("score").textContent = answered < total ? answered + " of " + total + " answered" : "Score: " + correct + " / " + total;
+  });
+  function selectNote(i, scroll) {
+    current = i; answered = 0; correct = 0;
+    renderTabs(); renderNote();
+    if (scroll) $("notebook").scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+  $("note-tabs").addEventListener("click", (e) => { const t = e.target.closest(".note-tab"); if (t) selectNote(+t.dataset.i, false); });
+  const fromHash = NOTES.findIndex((n) => "#" + n.id === location.hash);
+  selectNote(fromHash >= 0 ? fromHash : 0, fromHash >= 0);
+
+  /* ---------- students ---------- */
+  $("steps").innerHTML = STUDENT_STEPS.map((s) =>
+    '<li class="step"><div><h3>' + txt(s.title) + "</h3><p>" + txt(s.text) + "</p>" +
+      (s.source && isUrl(s.source.link) ? '<a class="src" href="' + esc(s.source.link) + '"' + ext(s.source.link) + ">Source: " + esc(s.source.label) + " &#8599;</a>" : "") +
+    "</div></li>").join("");
+  $("tips").innerHTML = TIPS.map((t) => "<li><strong>" + txt(t.title) + "</strong><span>" + txt(t.text) + "</span></li>").join("");
+  $("links").innerHTML = LINKS.map((l) => '<li><a href="' + esc(l.link) + '"' + ext(l.link) + "><strong>" + esc(l.name) + " &#8599;</strong><span>" + esc(l.about) + "</span></a></li>").join("");
+
+  /* ---------- connect: request composer ---------- */
+  const typeSel = $("req-type");
+  typeSel.innerHTML = REQUEST_TYPES.map((t, i) => '<option value="' + i + '">' + esc(t) + "</option>").join("");
+  document.querySelectorAll("[data-request]").forEach((a) => a.addEventListener("click", () => { typeSel.value = a.dataset.request; }));
+  $("req-form").addEventListener("submit", (e) => {
+    e.preventDefault();
+    const name = $("req-name").value.trim(), msg = $("req-msg").value.trim();
+    const err = $("req-error");
+    if (!name || !msg) { err.textContent = "Please add your name and a short message."; err.hidden = false; return; }
+    err.hidden = true;
+    const type = REQUEST_TYPES[+typeSel.value] || REQUEST_TYPES[0];
+    const org = $("req-org").value.trim(), level = $("req-level").value.trim();
+    const subject = "Dr. Pulse Bhutan: " + type + " (" + name + ")";
+    const body = "Dear Dr. Manisha,\n\n" + msg + "\n\n" +
+      "Request: " + type + "\nName: " + name + (org ? "\nSchool or organisation: " + org : "") + (level ? "\nClass, year or role: " + level : "") +
+      "\n\nSent from Dr. Pulse Bhutan";
+    $("req-text").textContent = "To: " + PROFILE.email + "\nSubject: " + subject + "\n\n" + body;
+    $("req-status").textContent = "Your email app should open with this message. If it doesn't, copy the message and send it to " + PROFILE.email + ".";
+    $("req-out").hidden = false;
+    const href = "mailto:" + PROFILE.email + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+    try { window.location.href = href; } catch (x) { /* the copy option stays visible */ }
+  });
+  $("req-copy").addEventListener("click", () => copyText($("req-text").textContent, $("req-copy"), "Copy message", $("req-text")));
+
+  const emailEl = $("email");
+  emailEl.textContent = PROFILE.email;
+  emailEl.href = "mailto:" + PROFILE.email;
+  $("copy-email").addEventListener("click", () => copyText(PROFILE.email, $("copy-email"), "Copy", emailEl));
+  $("socials").innerHTML = PROFILE.socials.filter((s) => isUrl(s.url))
+    .map((s) => '<li><a href="' + esc(s.url) + '"' + ext(s.url) + ">" + esc(s.label) + "</a></li>").join("");
+
+  /* ---------- the pulse trace: each heartbeat rises as a Himalayan peak ---------- */
+  const box = $("trace"), path = $("trace-path"), blip = $("trace-blip"), halo = $("trace-halo");
+  const reduce = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const PEAKS = [0.46, 0.62, 0.52, 0.78, 0.6, 0.94, 0.7, 0.84, 0.58, 1.0, 0.74, 0.88];
+  let total = 0, running = false, visible = true, t0 = 0;
+  function build() {
+    const w = box.clientWidth, h = box.clientHeight;
+    if (!w || !h) return;
+    $("trace-svg").setAttribute("viewBox", "0 0 " + w + " " + h);
+    const n = Math.max(4, Math.min(PEAKS.length, Math.round(w / 140)));
+    const s = w / n, y0 = h * 0.8, H = y0 - 14;
+    const f = (v) => v.toFixed(1);
+    let d = "M0 " + f(y0);
+    for (let i = 0; i < n; i++) {
+      const cx = s * (i + 0.5), pk = PEAKS[i];
+      d += " L" + f(cx - 0.40 * s) + " " + f(y0) +
+        " Q" + f(cx - 0.32 * s) + " " + f(y0 - 0.09 * H) + " " + f(cx - 0.24 * s) + " " + f(y0) +
+        " L" + f(cx - 0.09 * s) + " " + f(y0) + " L" + f(cx - 0.06 * s) + " " + f(y0 + 0.06 * H) +
+        " L" + f(cx - 0.028 * s) + " " + f(y0 - pk * H * 0.6) + " L" + f(cx - 0.014 * s) + " " + f(y0 - pk * H * 0.53) +
+        " L" + f(cx) + " " + f(y0 - pk * H) + " L" + f(cx + 0.05 * s) + " " + f(y0 + 0.1 * H) +
+        " L" + f(cx + 0.09 * s) + " " + f(y0) +
+        " Q" + f(cx + 0.22 * s) + " " + f(y0 - 0.17 * H) + " " + f(cx + 0.34 * s) + " " + f(y0);
+    }
+    d += " L" + f(w) + " " + f(y0);
+    path.setAttribute("d", d);
+    total = path.getTotalLength();
+    place(reduce ? total * 0.995 : 0);
+  }
+  function place(len) {
+    const p = path.getPointAtLength(len);
+    blip.setAttribute("cx", p.x); blip.setAttribute("cy", p.y);
+    halo.setAttribute("cx", p.x); halo.setAttribute("cy", p.y);
+  }
+  function loop(ts) {
+    if (!visible) { running = false; return; }
+    if (!t0) t0 = ts;
+    place(((ts - t0) % 6000) / 6000 * total);
+    requestAnimationFrame(loop);
+  }
+  function start() { if (!reduce && !running && total) { running = true; requestAnimationFrame(loop); } }
+  build();
+  let rt; window.addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(() => { build(); start(); }, 150); });
+  if ("IntersectionObserver" in window) {
+    new IntersectionObserver((e) => { visible = e[0].isIntersecting; if (visible) start(); }).observe(box);
+  }
+  start();
+})();
+</script>
+<!-- Visitor statistics (no cookies): https://drpulsebhutan.goatcounter.com -->
+<script data-goatcounter="https://drpulsebhutan.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+</body>
+</html>
